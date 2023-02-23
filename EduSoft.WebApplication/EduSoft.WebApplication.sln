@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduSoft.Model", "EduSoft.Mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduSoft.Entities", "EduSoft.Entities\EduSoft.Entities.csproj", "{B42D3119-B022-4268-AB28-2F86C380F415}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduSoft.Data", "EduSoft.Data\EduSoft.Data.csproj", "{364BFA9D-B699-4608-9222-41B4F691BBB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduSoft.WebApplication.Test", "EduSoft.WebApplication.Test\EduSoft.WebApplication.Test.csproj", "{E9113314-66C2-45EC-A71A-307AB1B5A7BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{B42D3119-B022-4268-AB28-2F86C380F415}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B42D3119-B022-4268-AB28-2F86C380F415}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B42D3119-B022-4268-AB28-2F86C380F415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{364BFA9D-B699-4608-9222-41B4F691BBB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{364BFA9D-B699-4608-9222-41B4F691BBB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{364BFA9D-B699-4608-9222-41B4F691BBB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{364BFA9D-B699-4608-9222-41B4F691BBB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9113314-66C2-45EC-A71A-307AB1B5A7BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9113314-66C2-45EC-A71A-307AB1B5A7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9113314-66C2-45EC-A71A-307AB1B5A7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9113314-66C2-45EC-A71A-307AB1B5A7BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
