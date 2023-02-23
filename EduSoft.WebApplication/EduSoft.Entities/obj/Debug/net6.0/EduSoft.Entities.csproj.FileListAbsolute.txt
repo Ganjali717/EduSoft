@@ -1,0 +1,12 @@
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Entities\bin\Debug\net6.0\EduSoft.Entities.deps.json
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Entities\bin\Debug\net6.0\EduSoft.Entities.dll
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Entities\bin\Debug\net6.0\EduSoft.Entities.pdb
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Entities\obj\Debug\net6.0\EduSoft.Entities.csproj.AssemblyReference.cache
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Entities\obj\Debug\net6.0\EduSoft.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Entities\obj\Debug\net6.0\EduSoft.Entities.AssemblyInfoInputs.cache
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Entities\obj\Debug\net6.0\EduSoft.Entities.AssemblyInfo.cs
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Entities\obj\Debug\net6.0\EduSoft.Entities.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Entities\obj\Debug\net6.0\EduSoft.Entities.dll
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Entities\obj\Debug\net6.0\refint\EduSoft.Entities.dll
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Entities\obj\Debug\net6.0\EduSoft.Entities.pdb
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Entities\obj\Debug\net6.0\ref\EduSoft.Entities.dll
