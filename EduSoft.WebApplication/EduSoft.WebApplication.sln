@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduSoft.WebApplication", "EduSoft.WebApplication\EduSoft.WebApplication.csproj", "{2B61B394-478B-4C9B-9943-B1D3898E6F76}"
+	ProjectSection(ProjectDependencies) = postProject
+		{31A4177C-D047-4D91-8D76-A1241A068490} = {31A4177C-D047-4D91-8D76-A1241A068490}
+		{364BFA9D-B699-4608-9222-41B4F691BBB7} = {364BFA9D-B699-4608-9222-41B4F691BBB7}
+		{B42D3119-B022-4268-AB28-2F86C380F415} = {B42D3119-B022-4268-AB28-2F86C380F415}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduSoft.Model", "EduSoft.Model\EduSoft.Model.csproj", "{31A4177C-D047-4D91-8D76-A1241A068490}"
 EndProject

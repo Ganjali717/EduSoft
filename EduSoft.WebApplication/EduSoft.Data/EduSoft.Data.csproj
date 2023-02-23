@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Managers\" />
+    <Folder Include="DatabaseContext\" />
+    <Folder Include="Extentions\" />
+  </ItemGroup>
+
 </Project>
