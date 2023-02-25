@@ -1184,6 +1184,21 @@
             "rid": "win"
           }
         }
+      },
+      "EduSoft.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.3",
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3"
+        },
+        "compile": {
+          "bin/placeholder/EduSoft.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EduSoft.Data.dll": {}
+        }
       }
     }
   },
@@ -3559,11 +3574,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "EduSoft.Data/1.0.0": {
+      "type": "project",
+      "path": "../EduSoft.Data/EduSoft.Data.csproj",
+      "msbuildProject": "../EduSoft.Data/EduSoft.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
+      "EduSoft.Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Abstractions >= 7.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.3",
@@ -3601,7 +3622,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\LENOVO\\OneDrive\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.Data\\EduSoft.Data.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.Data\\EduSoft.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

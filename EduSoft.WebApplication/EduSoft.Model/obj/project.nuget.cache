@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "eGMvipm2APmI3yXG9BKHXa0N4fOntLUPI4NQcisLO/2e60uYvS9V/zctBF6t4wfHdBijzWMVpEe1TfXbVpWbKQ==",
+  "dgSpecHash": "fyMoPOXJUUhqx1qk2uuov9BypEtqKzonbK4eCt9MMIfxP8idT031a1WwcfVlOEY1FaClM71rR9Q+MiXzrKsVXw==",
   "success": true,
   "projectFilePath": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.Model\\EduSoft.Model.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
