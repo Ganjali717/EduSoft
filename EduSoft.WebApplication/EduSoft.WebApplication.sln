@@ -5,18 +5,24 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduSoft.WebApplication", "EduSoft.WebApplication\EduSoft.WebApplication.csproj", "{2B61B394-478B-4C9B-9943-B1D3898E6F76}"
 	ProjectSection(ProjectDependencies) = postProject
-		{31A4177C-D047-4D91-8D76-A1241A068490} = {31A4177C-D047-4D91-8D76-A1241A068490}
 		{364BFA9D-B699-4608-9222-41B4F691BBB7} = {364BFA9D-B699-4608-9222-41B4F691BBB7}
 		{B42D3119-B022-4268-AB28-2F86C380F415} = {B42D3119-B022-4268-AB28-2F86C380F415}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduSoft.Model", "EduSoft.Model\EduSoft.Model.csproj", "{31A4177C-D047-4D91-8D76-A1241A068490}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduSoft.Model", "EduSoft.Model\EduSoft.Model.csproj", "{31A4177C-D047-4D91-8D76-A1241A068490}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B42D3119-B022-4268-AB28-2F86C380F415} = {B42D3119-B022-4268-AB28-2F86C380F415}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduSoft.Entities", "EduSoft.Entities\EduSoft.Entities.csproj", "{B42D3119-B022-4268-AB28-2F86C380F415}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduSoft.Entities", "EduSoft.Entities\EduSoft.Entities.csproj", "{B42D3119-B022-4268-AB28-2F86C380F415}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduSoft.Data", "EduSoft.Data\EduSoft.Data.csproj", "{364BFA9D-B699-4608-9222-41B4F691BBB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduSoft.Data", "EduSoft.Data\EduSoft.Data.csproj", "{364BFA9D-B699-4608-9222-41B4F691BBB7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{31A4177C-D047-4D91-8D76-A1241A068490} = {31A4177C-D047-4D91-8D76-A1241A068490}
+		{B42D3119-B022-4268-AB28-2F86C380F415} = {B42D3119-B022-4268-AB28-2F86C380F415}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduSoft.WebApplication.Test", "EduSoft.WebApplication.Test\EduSoft.WebApplication.Test.csproj", "{E9113314-66C2-45EC-A71A-307AB1B5A7BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduSoft.WebApplication.Test", "EduSoft.WebApplication.Test\EduSoft.WebApplication.Test.csproj", "{E9113314-66C2-45EC-A71A-307AB1B5A7BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -18,4 +18,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.3" />
   </ItemGroup>
 
+	<ItemGroup>
+		<ProjectReference Include="..\EduSoft.Entities\EduSoft.Entities.csproj" />
+		<ProjectReference Include="..\EduSoft.Model\EduSoft.Model.csproj" />
+	</ItemGroup>
+
 </Project>

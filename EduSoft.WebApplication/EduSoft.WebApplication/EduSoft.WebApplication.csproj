@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EduSoft.Data\EduSoft.Data.csproj" />
+    <ProjectReference Include="..\EduSoft.Entities\EduSoft.Entities.csproj" />
   </ItemGroup>
 
 </Project>

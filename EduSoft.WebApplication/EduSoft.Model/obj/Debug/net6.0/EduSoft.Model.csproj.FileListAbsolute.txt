@@ -10,3 +10,15 @@ C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\ob
 C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\obj\Debug\net6.0\refint\EduSoft.Model.dll
 C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\obj\Debug\net6.0\EduSoft.Model.pdb
 C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\obj\Debug\net6.0\ref\EduSoft.Model.dll
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\bin\Debug\net6.0\EduSoft.Model.deps.json
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\bin\Debug\net6.0\EduSoft.Model.dll
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\bin\Debug\net6.0\EduSoft.Model.pdb
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\obj\Debug\net6.0\EduSoft.Model.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\obj\Debug\net6.0\EduSoft.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\obj\Debug\net6.0\EduSoft.Model.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\obj\Debug\net6.0\EduSoft.Model.AssemblyInfo.cs
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\obj\Debug\net6.0\EduSoft.Model.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\obj\Debug\net6.0\EduSoft.Model.dll
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\obj\Debug\net6.0\refint\EduSoft.Model.dll
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\obj\Debug\net6.0\EduSoft.Model.pdb
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\obj\Debug\net6.0\ref\EduSoft.Model.dll
