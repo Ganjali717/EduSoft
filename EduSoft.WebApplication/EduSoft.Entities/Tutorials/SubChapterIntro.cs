@@ -5,20 +5,21 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace EduSoft.Entities.Tutorials
 {
-    public class Tutorial
+    public class SubChapterIntro
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Guid Id { get; set; }
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public Category? Category { get; set; }
-        [ForeignKey("Category")]
-        public Guid? CategoryId { get; set; }
+        public string Name { get; set; }  
+        public string Content { get; set; }
+        public Subchapter SubChapter { get; set; }
+        [ForeignKey("SubChapter")] 
+        public Guid SubChapterId { get; set; }
         public DateTime Created { get; set; }
-        public ICollection<Chapter> Chapters { get; set; }
+        public ICollection<IntroImages> Images { get; set; }
     }
 }

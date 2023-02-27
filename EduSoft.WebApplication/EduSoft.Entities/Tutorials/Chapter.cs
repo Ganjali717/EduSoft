@@ -18,6 +18,6 @@ namespace EduSoft.Entities.Tutorials
         [ForeignKey("Tutorial")] 
         public Guid TutorialId { get; set; }
         public DateTime Created { get; set; }
-
+        public ICollection<Subchapter> Subchapters { get; set; }
     }
 }

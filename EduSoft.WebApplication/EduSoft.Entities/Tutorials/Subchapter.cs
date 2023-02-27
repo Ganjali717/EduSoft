@@ -19,5 +19,6 @@ namespace EduSoft.Entities.Tutorials
         [ForeignKey("Chapter")] 
         public Guid ChapterId { get; set; }
         public DateTime Created { get; set; }
+        public ICollection<SubChapterIntro> SubchapterIntro { get; set; }
     }
 }
