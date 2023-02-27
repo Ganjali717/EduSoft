@@ -9,6 +9,8 @@
   <ItemGroup>
     <Folder Include="DTO\" />
     <Folder Include="Automapper\" />
+    <Folder Include="DTO\" />
+    <Folder Include="Automapper\" />
   </ItemGroup>
 
   <ItemGroup>

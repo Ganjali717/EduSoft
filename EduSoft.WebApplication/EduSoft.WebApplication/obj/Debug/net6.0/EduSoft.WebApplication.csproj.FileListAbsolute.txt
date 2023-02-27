@@ -178,3 +178,7 @@ C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\obj\
 C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\obj\Debug\net6.0\EduSoft.WebApplication.pdb
 C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\obj\Debug\net6.0\EduSoft.WebApplication.genruntimeconfig.cache
 C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\obj\Debug\net6.0\ref\EduSoft.WebApplication.dll
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\EduSoft.Entities.dll
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\EduSoft.Model.dll
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\EduSoft.Entities.pdb
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\EduSoft.Model.pdb

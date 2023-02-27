@@ -22,3 +22,6 @@ C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\obj\Debug\net
 C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\obj\Debug\net6.0\refint\EduSoft.Model.dll
 C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\obj\Debug\net6.0\EduSoft.Model.pdb
 C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\obj\Debug\net6.0\ref\EduSoft.Model.dll
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\bin\Debug\net6.0\EduSoft.Entities.dll
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\bin\Debug\net6.0\EduSoft.Entities.pdb
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Model\obj\Debug\net6.0\EduSoft.Model.csproj.CopyComplete

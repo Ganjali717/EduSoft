@@ -10,6 +10,8 @@
     <Folder Include="Managers\" />
     <Folder Include="DatabaseContext\" />
     <Folder Include="Extentions\" />
+    <Folder Include="Managers\" />
+    <Folder Include="Extentions\" />
   </ItemGroup>
 
   <ItemGroup>
