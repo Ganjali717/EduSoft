@@ -18,11 +18,10 @@ namespace EduSoft.Entities.Comments
         public AppUser AppUser { get; set; }
         [ForeignKey("AppUser")]
         public Guid AppUserId { get; set; }
-        public string Content { get; set; }
-        public DateTime Created { get; set; }
         public Discussion Discussion { get; set; }
         [ForeignKey("Discussion")]
         public Guid DiscussionId { get; set; }
-
+        public string Content { get; set; }
+        public DateTime Created { get; set; }
     }
 }
