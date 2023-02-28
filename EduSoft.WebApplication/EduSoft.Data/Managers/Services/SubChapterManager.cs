@@ -38,4 +38,31 @@ public class SubChapterManager
 
         return result;
     }
+
+    public async Task<ManagerResult<Subchapter>> GetSubChapterbyIdAsync(Guid id)
+    {
+        var result = new ManagerResult<Subchapter>();
+        try
+        {
+            var subChapter = await _context.Subchapters.FindAsync(id);
+            if (subChapter != null)
+            {
+                result.Data = subChapter;
+                result.Success = true;
+            }
+            else
+            {
+                result.Success = false;
+                result.Message = "Not found subchapter with this id";
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex);
+            result.Message = ex.GetBaseException().Message;
+        }
+
+        return result;
+    }
+
 }
