@@ -65,4 +65,58 @@ public class SubChapterManager
         return result;
     }
 
+    public async Task<ManagerResult<Subchapter>> CreateOrUpdateSubChapter(Subchapter subchapter)
+    {
+        var result = new ManagerResult<Subchapter>();
+        try
+        {
+            if (subchapter.Id == Guid.Empty)
+            {
+                if (subchapter != null)
+                {
+                    await _context.Subchapters.AddAsync(subchapter);
+                    await _context.SaveChangesAsync();
+                }
+            }
+            else
+            {
+                var oldSubChap = await _context.Subchapters.FindAsync(subchapter);
+                oldSubChap.Content = subchapter.Content;
+                oldSubChap.Created = DateTime.Now;
+                oldSubChap.Title = subchapter.Title;
+                oldSubChap.Chapter = subchapter.Chapter;
+                oldSubChap.ChapterId = subchapter.ChapterId;
+                await _context.SaveChangesAsync();
+            }
+            result.Success = false;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex);
+            result.Message = ex.GetBaseException().Message;
+        }
+        return result;
+    }
+
+    public async Task<ManagerResult> DeleteSubChapterAsync(Guid id)
+    {
+        var result = new ManagerResult();
+        try
+        {
+            var subChapter =  await  _context.Subchapters.FindAsync(id);
+            if (subChapter != null)
+            {
+                _context.Subchapters.Remove(subChapter);
+                await _context.SaveChangesAsync();
+                result.Success = true;
+            }
+            result.Success = false;
+            result.Message = "SubChapter with this Id not found";
+        }
+        catch (Exception ex)
+        {
+           result.Message = ex.GetBaseException().Message;
+        }
+        return result;
+    }
 }

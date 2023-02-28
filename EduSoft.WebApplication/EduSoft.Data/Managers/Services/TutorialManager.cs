@@ -64,7 +64,6 @@ namespace EduSoft.Data.Managers.Services
                 {
                     await _context.Tutorials.AddAsync(tutorial);
                     await _context.SaveChangesAsync();
-                    
                 }
                 else
                 {
