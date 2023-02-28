@@ -182,3 +182,9 @@ C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\
 C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\EduSoft.Model.dll
 C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\EduSoft.Entities.pdb
 C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\EduSoft.Model.pdb
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\EduSoft.Data.dll
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\EduSoft.Entities.dll
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\EduSoft.Model.dll
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\EduSoft.Data.pdb
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\EduSoft.Entities.pdb
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\EduSoft.Model.pdb
