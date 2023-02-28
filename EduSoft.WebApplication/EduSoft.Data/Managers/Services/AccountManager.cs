@@ -5,10 +5,12 @@ namespace EduSoft.Data.Managers.Services;
 
 public class AccountManager:IAccountManager
 {
-    private readonly AppDbContext context;
+    private readonly AppDbContext _context;
 
-    public AccountManager(AppDbContext _context)
+    public AccountManager(AppDbContext context)
     {
         _context = context;
     }
+
+    
 }

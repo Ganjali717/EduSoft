@@ -1,5 +1,6 @@
 ﻿namespace EduSoft.Data.Managers.Interfaces;
 
-public interface IAccountManager
+public interface IChapterManager
 {
+    
 }
