@@ -101,7 +101,7 @@ namespace EduSoft.Data.Managers.Services
                     result.Success = true;
                 }
                 result.Success = false;
-                result.Message = "User not found";
+                result.Message = "Tutorial with this Id not found";
             }
             catch (Exception ex)
             {
