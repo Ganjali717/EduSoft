@@ -7,4 +7,6 @@ public interface ITutorialManager
 {
     public Task<ManagerResult<List<Tutorial>>> GetAllTutorials();
     public Task<ManagerResult<Tutorial>> GetTutorial(Guid id);
+    public Task<ManagerResult<Tutorial>> CreateOrUpdateTutorial(Tutorial tutorial);
+    public Task<ManagerResult> DeleteTutorial(Guid id);
 }

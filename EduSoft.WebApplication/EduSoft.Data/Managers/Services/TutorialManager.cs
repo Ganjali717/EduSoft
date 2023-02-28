@@ -7,11 +7,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using EduSoft.Data.Managers.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace EduSoft.Data.Managers.Services
 {
-    public class TutorialManager
+    public class TutorialManager:ITutorialManager
     {
         private readonly AppDbContext _context;
         private readonly IMapper _mapper;
@@ -82,6 +83,28 @@ namespace EduSoft.Data.Managers.Services
             catch (Exception ex)
             {
                 Console.WriteLine(ex);
+                result.Message = ex.GetBaseException().Message;
+            }
+            return result;
+        }
+
+        public async Task<ManagerResult> DeleteTutorial(Guid id)
+        {
+            var result = new ManagerResult();
+            try
+            {
+                var tutorial = await _context.Tutorials.FindAsync(id);
+                if (tutorial != null)
+                {
+                    _context.Tutorials.Remove(tutorial);
+                    await _context.SaveChangesAsync();
+                    result.Success = true;
+                }
+                result.Success = false;
+                result.Message = "User not found";
+            }
+            catch (Exception ex)
+            {
                 result.Message = ex.GetBaseException().Message;
             }
             return result;
