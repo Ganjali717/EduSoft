@@ -8,5 +8,6 @@ public interface IAccountManager
     Task<ManagerResult<List<AppUser>>> GetAllUsers();
     Task<ManagerResult<AppUser>> GetUserById(Guid id);
     Task<ManagerResult> RemoveUser(Guid id);
-    Task<ManagerResult<AppUser>> GetUserBySecuretyToken(string token);
+    Task<ManagerResult<AppUser>> GetUserBySecurityToken(string token);
+    Task<ManagerResult<AppUser>> Login(string email, string password);
 }
