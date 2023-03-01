@@ -1,11 +1,12 @@
 ﻿using EduSoft.Data.DatabaseContext;
+using EduSoft.Data.Managers.Interfaces;
 using EduSoft.Entities;
 using EduSoft.Entities.Tutorials;
 using Microsoft.EntityFrameworkCore;
 
 namespace EduSoft.Data.Managers.Services;
 
-public class SubChapterManager
+public class SubChapterManager:ISubChapterManager
 {
     private readonly AppDbContext _context; 
     public SubChapterManager(AppDbContext context)
@@ -13,7 +14,7 @@ public class SubChapterManager
         _context = context;
     }
 
-    public async Task<ManagerResult<List<Subchapter>>> GetAllSubChapter()
+    public async Task<ManagerResult<List<Subchapter>>> GetAllSubChapterAsync()
     {
         var result = new ManagerResult<List<Subchapter>>();
         try

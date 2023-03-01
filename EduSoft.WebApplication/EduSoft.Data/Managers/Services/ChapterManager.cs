@@ -1,12 +1,13 @@
 ﻿using AutoMapper;
 using EduSoft.Data.DatabaseContext;
+using EduSoft.Data.Managers.Interfaces;
 using EduSoft.Entities.Tutorials;
 using EduSoft.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace EduSoft.Data.Managers.Services;
 
-public class ChapterManager
+public class ChapterManager:IChapterManager
 {
     private readonly AppDbContext _context;
     private readonly IMapper _mapper;
