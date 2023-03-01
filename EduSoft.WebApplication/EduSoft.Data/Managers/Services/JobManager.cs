@@ -91,16 +91,17 @@ public class JobManager : IJobManager
         return result;
     }
 
-    public async Task<ManagerResult<Job>> RemoveJob(Guid id)
+    public async Task<ManagerResult> RemoveJob(Guid id)
     {
-        var result = new ManagerResult<Job>();
+        var result = new ManagerResult();
         try
         {
             if (id != Guid.Empty)
             {
-                     _context.Jobs.Remove(id);
-                     await _context.SaveChangesAsync(); 
-                     result.Success = true;
+                var job = await _context.Jobs.FindAsync(id);
+                _context.Jobs.Remove(job);
+                await _context.SaveChangesAsync(); 
+                result.Success = true;
             }
         }
         catch (Exception ex)
