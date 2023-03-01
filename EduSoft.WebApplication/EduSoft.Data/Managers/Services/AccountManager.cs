@@ -14,7 +14,7 @@ public class AccountManager:IAccountManager
     {
         _context = context;
     }
-    public async Task<ManagerResult<List<AppUser>>> GetAllUsers()
+    public async Task<ManagerResult<List<AppUser>>> GetAllAccounts()
     {
         var result = new ManagerResult<List<AppUser>>();
         try
@@ -33,7 +33,7 @@ public class AccountManager:IAccountManager
         }
         return result;
     }
-    public async Task<ManagerResult<AppUser>> GetUserById(Guid id)
+    public async Task<ManagerResult<AppUser>> GetAccount(Guid id)
     {
         var result = new ManagerResult<AppUser>();
         try
@@ -47,7 +47,7 @@ public class AccountManager:IAccountManager
         }
         return result;
     }
-    public async Task<ManagerResult> RemoveUser(Guid id)
+    public async Task<ManagerResult> RemoveAccount(Guid id)
     {
         var result = new ManagerResult();
         try
@@ -68,7 +68,7 @@ public class AccountManager:IAccountManager
 
         return result;
     }
-    public async Task<ManagerResult<AppUser>> GetUserBySecurityToken(string token)
+    public async Task<ManagerResult<AppUser>> GetAccountBySecurityToken(string token)
     {
         var result = new ManagerResult<AppUser>();
         try

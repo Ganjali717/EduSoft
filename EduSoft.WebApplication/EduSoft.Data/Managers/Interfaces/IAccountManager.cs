@@ -5,9 +5,9 @@ namespace EduSoft.Data.Managers.Interfaces;
 
 public interface IAccountManager
 {
-    Task<ManagerResult<List<AppUser>>> GetAllUsers();
-    Task<ManagerResult<AppUser>> GetUserById(Guid id);
-    Task<ManagerResult> RemoveUser(Guid id);
-    Task<ManagerResult<AppUser>> GetUserBySecurityToken(string token);
+    Task<ManagerResult<List<AppUser>>> GetAllAccounts();
+    Task<ManagerResult<AppUser>> GetAccount(Guid id);
+    Task<ManagerResult> RemoveAccount(Guid id);
+    Task<ManagerResult<AppUser>> GetAccountBySecurityToken(string token);
     Task<ManagerResult<AppUser>> Login(string email, string password);
 }
