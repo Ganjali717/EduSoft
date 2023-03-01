@@ -7,10 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DTO\" />
     <Folder Include="Automapper\" />
-    <Folder Include="DTO\" />
     <Folder Include="Automapper\" />
+    <Folder Include="DTO\Tutorials\" />
   </ItemGroup>
 
   <ItemGroup>
