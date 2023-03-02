@@ -2,6 +2,8 @@
 using EduSoft.Data.Managers.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
+using EduSoft.Entities;
+using EduSoft.Model.DTO.Tutorials;
 
 namespace EduSoft.WebApplication.Controllers
 {
@@ -15,6 +17,8 @@ namespace EduSoft.WebApplication.Controllers
             _mapper = mapper;
         }
 
+        [HttpGet]
+        [Route("api/getalltut")]
         public async Task<IActionResult> GetTutorials()
         {
             var managerResult = _manager.GetAllTutorials();
@@ -23,7 +27,9 @@ namespace EduSoft.WebApplication.Controllers
                 Response.StatusCode = (int)HttpStatusCode.BadRequest;
                 return Json(managerResult.Result.Message);
             }
-            return Json(managerResult.Result);
+
+            var mappedResult = _mapper.Map<ManagerResult<List<TutorialDto>>>(managerResult.Result);
+            return Json(mappedResult);
         }
     }
 }
