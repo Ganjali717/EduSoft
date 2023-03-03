@@ -14,10 +14,20 @@ namespace EduSoft.Model.Automapper
     {
         public BaseAutoMapper()
         {
+            #region TutorialDTO
             CreateMap<TutorialDto, Tutorial>();
             CreateMap<Tutorial, TutorialDto>();
+            #endregion
+
+            #region AccountDTO
+
+            
+            #endregion
+
+            #region ManagerResultRegion
             CreateMap(typeof(ManagerResult<>), typeof(ManagerResult<>));
             CreateMap(typeof(PagedManagerResult<>), typeof(PagedManagerResult<>));
+            #endregion
         }
     }
 }

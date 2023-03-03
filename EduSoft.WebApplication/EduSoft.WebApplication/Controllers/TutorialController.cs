@@ -19,7 +19,7 @@ namespace EduSoft.WebApplication.Controllers
 
         [HttpGet]
         [Route("api/getalltut")]
-        public async Task<IActionResult> GetTutorials()
+        public IActionResult GetTutorials()
         {
             var managerResult = _manager.GetAllTutorials();
             if (!managerResult.Result.Success)
@@ -27,7 +27,6 @@ namespace EduSoft.WebApplication.Controllers
                 Response.StatusCode = (int)HttpStatusCode.BadRequest;
                 return Json(managerResult.Result.Message);
             }
-
             var mappedResult = _mapper.Map<ManagerResult<List<TutorialDto>>>(managerResult.Result);
             return Json(mappedResult);
         }
