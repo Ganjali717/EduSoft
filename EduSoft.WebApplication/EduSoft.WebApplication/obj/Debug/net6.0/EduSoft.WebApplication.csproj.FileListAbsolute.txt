@@ -188,3 +188,5 @@ C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebAppli
 C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\EduSoft.Data.pdb
 C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\EduSoft.Entities.pdb
 C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\EduSoft.Model.pdb
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\log4net.dll
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll

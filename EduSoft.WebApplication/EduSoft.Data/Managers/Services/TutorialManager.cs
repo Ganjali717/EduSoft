@@ -9,17 +9,18 @@ using System.Text;
 using System.Threading.Tasks;
 using EduSoft.Data.Managers.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace EduSoft.Data.Managers.Services
 {
     public class TutorialManager:ITutorialManager
     {
         private readonly AppDbContext _context;
-        private readonly IMapper _mapper;
-        public TutorialManager(AppDbContext context, IMapper mapper)
+        private readonly ILogger<TutorialManager> _logger;
+        public TutorialManager(AppDbContext context, ILogger<TutorialManager> logger)
         {
             _context = context;
-            _mapper = mapper;
+            _logger = logger;
         }
 
         public async Task<ManagerResult<List<Tutorial>>> GetAllTutorials()
@@ -33,13 +34,12 @@ namespace EduSoft.Data.Managers.Services
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex);
+                _logger.LogError(ex, ex.GetBaseException().Message);
                 result.Message = ex.GetBaseException().Message;
             }
 
             return result;
         }
-
         public async Task<ManagerResult<Tutorial>> GetTutorial(Guid id)
         {
             var result = new ManagerResult<Tutorial>();
@@ -49,12 +49,11 @@ namespace EduSoft.Data.Managers.Services
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex);
+                _logger.LogError(ex, ex.GetBaseException().Message);
                 result.Message = ex.GetBaseException().Message;
             }
             return result;
         }
-
         public async Task<ManagerResult<Tutorial>> CreateOrUpdateTutorial(Tutorial tutorial)
         {
             var result = new ManagerResult<Tutorial>();
@@ -81,12 +80,11 @@ namespace EduSoft.Data.Managers.Services
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex);
+                _logger.LogError(ex, ex.GetBaseException().Message);
                 result.Message = ex.GetBaseException().Message;
             }
             return result;
         }
-
         public async Task<ManagerResult> DeleteTutorial(Guid id)
         {
             var result = new ManagerResult();
@@ -104,6 +102,7 @@ namespace EduSoft.Data.Managers.Services
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, ex.GetBaseException().Message);
                 result.Message = ex.GetBaseException().Message;
             }
             return result;

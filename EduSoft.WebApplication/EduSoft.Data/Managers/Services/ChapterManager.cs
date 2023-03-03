@@ -4,17 +4,18 @@ using EduSoft.Data.Managers.Interfaces;
 using EduSoft.Entities.Tutorials;
 using EduSoft.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace EduSoft.Data.Managers.Services;
 
 public class ChapterManager:IChapterManager
 {
     private readonly AppDbContext _context;
-    private readonly IMapper _mapper;
-    public ChapterManager(AppDbContext context, IMapper mapper)
+    private readonly ILogger<ChapterManager> _logger;
+    public ChapterManager(AppDbContext context, ILogger<ChapterManager> logger)
     {
         _context = context;
-        _mapper = mapper;
+        _logger = logger;
     }
 
     public async Task<ManagerResult<List<Chapter>>> GetAllChapters()
@@ -28,7 +29,7 @@ public class ChapterManager:IChapterManager
         }
         catch (Exception ex)
         {
-            Console.WriteLine(ex);
+            _logger.LogError(ex, ex.GetBaseException().Message);
             result.Message = ex.GetBaseException().Message;
         }
 
@@ -44,7 +45,7 @@ public class ChapterManager:IChapterManager
         }
         catch (Exception ex)
         {
-            Console.WriteLine(ex);
+            _logger.LogError(ex, ex.GetBaseException().Message);
             result.Message = ex.GetBaseException().Message;
         }
         return result;
@@ -75,7 +76,7 @@ public class ChapterManager:IChapterManager
         }
         catch (Exception ex)
         {
-            Console.WriteLine(ex);
+            _logger.LogError(ex, ex.GetBaseException().Message);
             result.Message = ex.GetBaseException().Message;
         }
         return result;
@@ -98,6 +99,7 @@ public class ChapterManager:IChapterManager
         }
         catch (Exception ex)
         {
+            _logger.LogError(ex, ex.GetBaseException().Message);
             result.Message = ex.GetBaseException().Message;
         }
         return result;

@@ -21,10 +21,6 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\User\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.WebApplication\\wwwroot\\js\\vue.bundle.js",
-      "PackagePath": "staticwebassets\\js\\vue.bundle.js"
-    },
-    {
       "Id": "C:\\Users\\User\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.WebApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

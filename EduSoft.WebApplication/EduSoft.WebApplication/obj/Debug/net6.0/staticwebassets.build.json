@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Kij/915xVt+sJcs/GKHUlqe1gk1qqvpXqBwbUUgljM0=",
+  "Hash": "CEs7c+b1tLAY7i3EXMkv7q++/hZrmtjVl3alYlI9/I4=",
   "Source": "EduSoft.WebApplication",
   "BasePath": "_content/EduSoft.WebApplication",
   "Mode": "Default",
@@ -117,23 +117,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
-    },
-    {
-      "Identity": "C:\\Users\\User\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.WebApplication\\wwwroot\\js\\vue.bundle.js",
-      "SourceId": "EduSoft.WebApplication",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.WebApplication\\wwwroot\\",
-      "BasePath": "_content/EduSoft.WebApplication",
-      "RelativePath": "js/vue.bundle.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\vue.bundle.js"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

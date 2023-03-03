@@ -4,16 +4,19 @@ using EduSoft.Data.Managers.Interfaces;
 using EduSoft.Entities;
 using EduSoft.Entities.Jobs;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace EduSoft.Data.Managers.Services;
 
 public class JobManager : IJobManager
 {
     private readonly AppDbContext _context;
+    private readonly ILogger<JobManager> _logger;
 
-    public JobManager(AppDbContext context)
+    public JobManager(AppDbContext context, ILogger<JobManager> logger)
     {
         _context = context;
+        _logger = logger;
     }
 
     public async Task<ManagerResult<List<Job>>> GetAllJobs()
@@ -32,12 +35,12 @@ public class JobManager : IJobManager
         }
         catch (Exception ex)
         {
+            _logger.LogError(ex, ex.GetBaseException().Message);
             result.Message = ex.GetBaseException().Message;
         }
 
         return result;
     }
-
     public async Task<ManagerResult<Job>> GetJobById(Guid id)
     {
         var result = new ManagerResult<Job>();
@@ -54,12 +57,12 @@ public class JobManager : IJobManager
         }
         catch (Exception ex)
         {
+            _logger.LogError(ex, ex.GetBaseException().Message);
             result.Message = ex.GetBaseException().Message;
         }
 
         return result;
     }
-
     public async Task<ManagerResult<Job>> CreateOrUpdateJob(Job job)
     {
         var result = new ManagerResult<Job>();
@@ -85,12 +88,12 @@ public class JobManager : IJobManager
         }
         catch (Exception ex)
         {
+            _logger.LogError(ex, ex.GetBaseException().Message);
             result.Message = ex.GetBaseException().Message;
         }
 
         return result;
     }
-
     public async Task<ManagerResult> RemoveJob(Guid id)
     {
         var result = new ManagerResult();
@@ -106,6 +109,7 @@ public class JobManager : IJobManager
         }
         catch (Exception ex)
         {
+            _logger.LogError(ex, ex.GetBaseException().Message);
             result.Message = ex.GetBaseException().Message;
         }
         return result;

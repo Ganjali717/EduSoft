@@ -4,15 +4,18 @@ using EduSoft.Entities;
 using EduSoft.Entities.Extentions;
 using EduSoft.Entities.Security;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace EduSoft.Data.Managers.Services;
 
 public class AccountManager:IAccountManager
 {
     private readonly AppDbContext _context;
-    public AccountManager(AppDbContext context)
+    private readonly ILogger<AccountManager> _logger;
+    public AccountManager(AppDbContext context, ILogger<AccountManager> logger)
     {
         _context = context;
+        _logger = logger;
     }
     public async Task<ManagerResult<List<AppUser>>> GetAllAccounts()
     {
@@ -29,6 +32,7 @@ public class AccountManager:IAccountManager
         }
         catch (Exception ex)
         {
+            _logger.LogError(ex, ex.GetBaseException().Message);
             result.Message = ex.GetBaseException().Message;
         }
         return result;
@@ -43,6 +47,7 @@ public class AccountManager:IAccountManager
         }
         catch (Exception ex)
         {
+            _logger.LogError(ex, ex.GetBaseException().Message);
             result.Message = ex.GetBaseException().Message;
         }
         return result;
@@ -63,6 +68,7 @@ public class AccountManager:IAccountManager
         }
         catch (Exception ex)
         {
+            _logger.LogError(ex, ex.GetBaseException().Message);
             result.Message = ex.GetBaseException().Message;
         }
 
@@ -83,6 +89,7 @@ public class AccountManager:IAccountManager
         }
         catch (Exception ex)
         {
+            _logger.LogError(ex, ex.GetBaseException().Message);
             result.Message = ex.GetBaseException().Message;
         }
         return result;
@@ -105,6 +112,7 @@ public class AccountManager:IAccountManager
         }
         catch (Exception ex)
         {
+            _logger.LogError(ex, ex.GetBaseException().Message);
             result.Message = ex.GetBaseException().Message;
         }
         return result;

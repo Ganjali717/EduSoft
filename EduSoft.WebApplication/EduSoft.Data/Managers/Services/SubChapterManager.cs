@@ -3,15 +3,18 @@ using EduSoft.Data.Managers.Interfaces;
 using EduSoft.Entities;
 using EduSoft.Entities.Tutorials;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace EduSoft.Data.Managers.Services;
 
 public class SubChapterManager:ISubChapterManager
 {
     private readonly AppDbContext _context; 
-    public SubChapterManager(AppDbContext context)
+    private readonly ILogger<SubChapterManager> _logger;
+    public SubChapterManager(AppDbContext context, ILogger<SubChapterManager> logger)
     {
         _context = context;
+        _logger = logger;
     }
 
     public async Task<ManagerResult<List<Subchapter>>> GetAllSubChapterAsync()
@@ -33,13 +36,12 @@ public class SubChapterManager:ISubChapterManager
         }
         catch (Exception ex)
         {
-            Console.WriteLine(ex);
+            _logger.LogError(ex, ex.GetBaseException().Message);
             result.Message = ex.GetBaseException().Message;
         }
 
         return result;
     }
-
     public async Task<ManagerResult<Subchapter>> GetSubChapterbyIdAsync(Guid id)
     {
         var result = new ManagerResult<Subchapter>();
@@ -59,13 +61,12 @@ public class SubChapterManager:ISubChapterManager
         }
         catch (Exception ex)
         {
-            Console.WriteLine(ex);
+            _logger.LogError(ex, ex.GetBaseException().Message);
             result.Message = ex.GetBaseException().Message;
         }
 
         return result;
     }
-
     public async Task<ManagerResult<Subchapter>> CreateOrUpdateSubChapter(Subchapter subchapter)
     {
         var result = new ManagerResult<Subchapter>();
@@ -93,12 +94,11 @@ public class SubChapterManager:ISubChapterManager
         }
         catch (Exception ex)
         {
-            Console.WriteLine(ex);
+            _logger.LogError(ex, ex.GetBaseException().Message);
             result.Message = ex.GetBaseException().Message;
         }
         return result;
     }
-
     public async Task<ManagerResult> DeleteSubChapterAsync(Guid id)
     {
         var result = new ManagerResult();
@@ -116,7 +116,8 @@ public class SubChapterManager:ISubChapterManager
         }
         catch (Exception ex)
         {
-           result.Message = ex.GetBaseException().Message;
+            _logger.LogError(ex, ex.GetBaseException().Message);
+            result.Message = ex.GetBaseException().Message;
         }
         return result;
     }

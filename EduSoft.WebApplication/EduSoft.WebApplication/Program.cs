@@ -9,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection")));
 builder.Services.AddAutoMapper(c => c.AddProfile<BaseAutoMapper>(), typeof(Program));
+builder.Logging.AddLog4Net("log4net.config");
 builder.Services.AddTransient<AppDbContext>();
 builder.Services.AddScoped<ITutorialManager, TutorialManager>();
 builder.Services.AddScoped<IChapterManager, ChapterManager>();
