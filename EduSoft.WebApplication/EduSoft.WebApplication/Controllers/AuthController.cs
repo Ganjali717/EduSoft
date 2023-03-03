@@ -22,7 +22,6 @@ namespace EduSoft.WebApplication.Controllers
             _mapper = mapper;
         }
 
-        
         [HttpGet]
         public IActionResult Login(string? returnUrl = null)
         {
@@ -32,7 +31,6 @@ namespace EduSoft.WebApplication.Controllers
             }
             return Ok();
         }
-
         [HttpPost]
         public async Task<IActionResult> Login([FromBody] LoginDto data)
         {
@@ -48,21 +46,9 @@ namespace EduSoft.WebApplication.Controllers
         }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+        
         private async Task Authenticate(AppUser account)
         {
-
             var claims = new List<Claim>
             {
                 new(ClaimsIdentity.DefaultNameClaimType, account.Email ?? string.Empty),
@@ -77,7 +63,6 @@ namespace EduSoft.WebApplication.Controllers
 
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(id));
         }
-
         private string GetRedirectUrl(string? returnUrl, Role role)
         {
             if (!string.IsNullOrEmpty(returnUrl))
