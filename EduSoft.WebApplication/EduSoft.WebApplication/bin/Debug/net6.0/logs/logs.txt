@@ -332,3 +332,231 @@ FROM [Tutorials] AS [t]
 INFO  2023-03-04 00:38:56,406  1625ms Command                ?                  - Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
 SELECT [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
 FROM [Tutorials] AS [t]
+INFO  2023-03-04 20:04:20,985   495ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 20:04:21,037   547ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 20:04:21,039   549ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 20:04:21,042   552ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 20:04:21,042   552ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 20:09:10,915   369ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 20:09:10,944   398ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 20:09:10,947   401ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 20:09:10,949   402ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 20:09:10,949   403ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 20:27:54,122   345ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 20:27:54,155   377ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 20:27:54,158   380ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 20:27:54,160   383ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 20:27:54,160   383ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 20:28:04,836   345ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 20:28:04,863   372ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 20:28:04,865   374ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 20:28:04,866   376ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 20:28:04,867   376ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 20:30:12,480   361ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 20:30:12,508   389ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 20:30:12,511   392ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 20:30:12,512   393ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 20:30:12,513   394ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 20:30:24,412   338ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 20:30:24,438   364ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 20:30:24,440   366ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 20:30:24,442   368ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 20:30:24,442   368ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 20:30:33,742   450ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 20:30:33,776   485ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 20:30:33,779   488ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 20:30:33,781   490ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 20:30:33,782   490ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 20:31:13,796   348ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 20:31:13,823   375ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 20:31:13,825   377ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 20:31:13,826   379ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 20:31:13,827   379ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 20:32:56,809   351ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 20:32:56,838   380ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 20:32:56,840   382ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 20:32:56,842   384ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 20:32:56,842   384ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 20:33:03,793   391ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 20:33:03,822   419ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 20:33:03,824   422ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 20:33:03,825   423ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 20:33:03,826   423ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 20:33:37,281   388ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 20:33:37,308   416ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 20:33:37,311   418ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 20:33:37,313   420ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 20:33:37,313   420ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 20:33:51,885   403ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 20:33:51,913   432ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 20:33:51,916   434ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 20:33:51,918   436ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 20:33:51,918   436ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 20:34:03,797   353ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 20:34:03,827   383ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 20:34:03,829   385ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 20:34:03,831   387ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 20:34:03,831   387ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 20:34:43,199   338ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 20:34:43,227   366ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 20:34:43,229   368ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 20:34:43,230   370ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 20:34:43,231   370ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 20:35:17,178   361ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 20:35:17,202   385ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 20:35:17,204   387ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 20:35:17,205   389ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 20:35:17,206   389ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 20:36:05,267   337ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 20:36:05,294   364ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 20:36:05,297   367ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 20:36:05,299   369ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 20:36:05,299   369ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:07:03,700   363ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:07:03,737   400ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:07:03,740   403ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:07:03,742   405ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:07:03,742   405ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:07:32,811   354ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:07:32,837   381ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:07:32,839   383ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:07:32,841   384ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:07:32,841   384ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:09:09,782   341ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:09:09,808   367ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:09:09,811   369ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:09:09,812   371ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:09:09,812   371ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:09:25,511   340ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:09:25,536   366ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:09:25,538   368ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:09:25,540   369ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:09:25,540   369ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:09:47,042   359ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:09:47,068   385ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:09:47,071   388ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:09:47,073   389ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:09:47,073   390ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:09:57,293   345ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:09:57,320   372ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:09:57,322   374ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:09:57,324   376ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:09:57,324   376ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:10:42,330   341ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:10:42,358   369ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:10:42,361   372ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:10:42,363   374ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:10:42,363   374ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:11:00,143   359ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:11:00,174   389ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:11:00,177   392ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:11:00,178   394ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:11:00,179   394ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:11:25,366   358ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:11:25,395   386ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:11:25,397   389ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:11:25,399   390ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:11:25,399   391ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:11:40,330   324ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:11:40,356   351ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:11:40,359   353ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:11:40,360   355ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:11:40,361   355ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:11:48,804   332ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:11:48,831   359ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:11:48,834   362ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:11:48,836   363ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:11:48,836   364ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:12:03,729   365ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:12:03,759   395ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:12:03,761   397ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:12:03,763   399ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:12:03,764   400ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:12:36,819   370ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:12:36,845   397ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:12:36,847   399ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:12:36,849   401ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:12:36,849   401ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:12:59,055   348ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:12:59,083   376ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:12:59,086   379ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:12:59,087   380ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:12:59,088   381ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:13:13,763   351ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:13:13,790   377ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:13:13,792   379ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:13:13,794   381ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:13:13,795   382ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:17:05,240   346ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:17:05,270   376ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:17:05,272   378ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:17:05,274   380ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:17:05,274   380ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:18:15,958   353ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:18:15,990   386ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:18:15,992   388ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:18:15,994   389ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:18:15,994   389ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:18:39,307   366ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:18:39,335   393ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:18:39,337   395ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:18:39,338   397ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:18:39,338   397ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:20:07,699   333ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:20:07,725   359ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:20:07,728   362ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:20:07,729   363ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:20:07,729   363ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:20:29,996   380ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:20:30,023   407ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:20:30,025   410ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:20:30,027   411ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:20:30,027   411ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:20:44,460   338ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:20:44,485   363ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:20:44,487   365ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:20:44,489   367ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:20:44,489   367ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:21:26,686   345ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:21:26,715   374ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:21:26,717   376ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:21:26,719   377ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:21:26,719   378ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:23:45,247   388ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:23:45,275   416ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:23:45,277   418ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:23:45,279   420ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:23:45,279   420ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:23:59,410   365ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:23:59,444   399ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:23:59,448   403ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:23:59,450   405ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:23:59,450   405ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:26:23,386   382ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:26:23,419   415ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:26:23,422   418ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:26:23,424   420ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:26:23,424   420ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:31:35,533   342ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-04 21:31:35,559   368ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-04 21:31:35,562   371ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-04 21:31:35,564   372ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-04 21:31:35,564   373ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-04 21:41:41,936  1288ms Command                ?                  - Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+INFO  2023-03-04 21:41:41,987  1339ms Command                ?                  - Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+INFO  2023-03-04 21:41:41,990  1342ms Command                ?                  - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+INFO  2023-03-04 21:41:41,991  1343ms Command                ?                  - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+INFO  2023-03-04 21:41:42,011  1363ms Command                ?                  - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+INFO  2023-03-04 21:41:42,028  1380ms Migrations             ?                  - Applying migration '20230304174127_AddSalaryToJobs'.
+INFO  2023-03-04 21:41:42,086  1439ms Command                ?                  - Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+ALTER TABLE [Jobs] ADD [Salary] int NULL;
+INFO  2023-03-04 21:41:42,088  1440ms Command                ?                  - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230304174127_AddSalaryToJobs', N'7.0.3');

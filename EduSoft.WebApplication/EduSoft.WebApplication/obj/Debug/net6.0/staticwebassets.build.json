@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AB+Rent3LlDrwg1gF4P7LkbnzfIBJYjxADYVEzfNyQM=",
+  "Hash": "/X/SDZpW3/WK4MxNQytebf0ToE+810Umwy2CpQKGz8s=",
   "Source": "EduSoft.WebApplication",
   "BasePath": "_content/EduSoft.WebApplication",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.WebApplication\\wwwroot\\img\\EduSoftLogo.ico",
+      "SourceId": "EduSoft.WebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.WebApplication\\wwwroot\\",
+      "BasePath": "_content/EduSoft.WebApplication",
+      "RelativePath": "img/EduSoftLogo.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\EduSoftLogo.ico"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.WebApplication\\wwwroot\\img\\EduSoftLogo.png",
+      "SourceId": "EduSoft.WebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.WebApplication\\wwwroot\\",
+      "BasePath": "_content/EduSoft.WebApplication",
+      "RelativePath": "img/EduSoftLogo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\EduSoftLogo.png"
     },
     {
       "Identity": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.WebApplication\\wwwroot\\js\\boostrap.bundle.js",

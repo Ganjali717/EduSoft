@@ -17,6 +17,7 @@ namespace EduSoft.Entities.Jobs
         public string Description { get; set; }
         public string Company { get; set; }
         public string Location { get; set; }
+        public int? Salary { get; set; }
         public DateTime Created { get; set; }
     }
 }

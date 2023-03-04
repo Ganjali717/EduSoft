@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.WebApplication\\wwwroot\\img\\EduSoftLogo.ico",
+      "PackagePath": "staticwebassets\\img\\EduSoftLogo.ico"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.WebApplication\\wwwroot\\img\\EduSoftLogo.png",
+      "PackagePath": "staticwebassets\\img\\EduSoftLogo.png"
+    },
+    {
       "Id": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.WebApplication\\wwwroot\\js\\boostrap.bundle.js",
       "PackagePath": "staticwebassets\\js\\boostrap.bundle.js"
     },
