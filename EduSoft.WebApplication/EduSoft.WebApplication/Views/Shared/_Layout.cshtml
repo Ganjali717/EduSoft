@@ -23,7 +23,7 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Ana Səhifə</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark">Dərsliklər</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Tutorial" asp-action="Index">Dərsliklər</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark">Vakansiyalar</a>
@@ -36,12 +36,8 @@
             </div>
         </nav>
     </header>
-    <main role="main" class="pb-3">
-        <div class="container">
-            <div class="flex-column">
-                @RenderBody()
-            </div>
-        </div>
+    <main role="main" class="flex-column">
+        @RenderBody()
     </main>
     <footer class="border-top footer text-muted">
         <div class="container">

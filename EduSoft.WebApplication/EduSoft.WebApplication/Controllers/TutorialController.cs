@@ -22,6 +22,8 @@ namespace EduSoft.WebApplication.Controllers
             _mapper = mapper;
             _memoryCache = memoryCache;
         }
+
+        public IActionResult Index() {  return View("Index"); }
         
         [HttpGet]
         [Route("api/getalltut")]
