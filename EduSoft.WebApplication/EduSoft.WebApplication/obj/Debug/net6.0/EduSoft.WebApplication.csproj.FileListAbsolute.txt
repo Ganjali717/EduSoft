@@ -21,9 +21,7 @@ C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebAppli
 C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\obj\Debug\net6.0\staticwebassets.pack.json
 C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\obj\Debug\net6.0\scopedcss\bundle\EduSoft.WebApplication.styles.css
-C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\obj\Debug\net6.0\scopedcss\projectbundle\EduSoft.WebApplication.bundle.scp.css
 C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\obj\Debug\net6.0\EduSoft.WebApplication.dll
 C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\obj\Debug\net6.0\refint\EduSoft.WebApplication.dll
 C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\obj\Debug\net6.0\EduSoft.WebApplication.pdb
@@ -190,3 +188,6 @@ C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebAppli
 C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\EduSoft.Model.pdb
 C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\log4net.dll
 C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\log4net.config
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\log4net.dll
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
