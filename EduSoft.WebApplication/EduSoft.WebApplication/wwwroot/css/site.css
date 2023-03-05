@@ -1,18 +1,23 @@
-html {
-  font-size: 14px;
+*,
+*:after,
+*:before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+
+/*  © Copyright - Ganjali Imanov  */
+
+header {
+
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
 
-body {
-  margin-bottom: 60px;
+.card {
+    border-radius: 15px !important;
+}
+.card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
