@@ -1,0 +1,12 @@
+﻿DECLARE @ID UNIQUEIDENTIFIER
+SET @ID = NEWID()
+
+INSERT INTO Jobs
+VALUES (@ID,'Python Developer','dhjsdjsjsdfjsdfjfjdjdjf','Caspel MMC','Baku,Azerbaijan', GETDATE(),5000)
+
+
+select * from Jobs
+
+update Jobs
+set Salary = 3000
+where Id in ('DB76EF93-9DE3-4FEF-A6D7-070813B7564D','F9A41DAC-0E38-445B-8FBE-3762633C64C9','39DB4003-880B-45E5-B790-ADD1BDB81E1A')
