@@ -25,18 +25,18 @@ namespace EduSoft.WebApplication.Controllers
         }
 
         [HttpPost]
-        [Route("login")]
+        [Route("Login")]
         public async Task<IActionResult> Login([FromBody] LoginDto data)
         {
-            var managerResult = _accountManager.Login(data.Username, data.Password);
-            if (!managerResult.Result.Success)
+            var managerResult = await _accountManager.Login(data.Username, data.Password);
+            if (!managerResult.Success)
             {
                 Response.StatusCode = (int)HttpStatusCode.BadRequest;
-                return Ok(managerResult.Result.Message);
+                return Ok(managerResult.Message);
             }
-            await Authenticate(managerResult.Result.Data);
-            managerResult.Result.Message = GetRedirectUrl(data.ReturnUrl, managerResult.Result.Data.Role);
-            return Ok(managerResult.Result);
+            await Authenticate(managerResult.Data);
+            managerResult.Message = GetRedirectUrl(data.ReturnUrl, managerResult.Data.Role);
+            return Ok(managerResult);
         }
 
         private async Task Authenticate(AppUser account)
