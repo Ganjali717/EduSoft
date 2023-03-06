@@ -56,7 +56,7 @@ namespace EduSoft.WebApplication.Controllers
 
         [HttpPost]
         [Route("CreateOrUpdateTutorial")]
-        public async Task<IActionResult> CreateOrUpdateTutorial(Tutorial model)
+        public async Task<IActionResult> CreateOrUpdateTutorial(TutorialDto model)
         {
             var jobs = _mapper.Map<Tutorial>(model);
             var managerResult = await _manager.CreateOrUpdateTutorial(jobs);

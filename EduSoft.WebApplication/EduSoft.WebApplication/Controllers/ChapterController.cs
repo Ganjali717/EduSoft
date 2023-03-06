@@ -48,7 +48,7 @@ namespace EduSoft.WebApplication.Controllers
         }
 
         [HttpPost("CreateOrUpdateChapter")]
-        public async Task<IActionResult> CreateOrUpdateChapter(Chapter model)
+        public async Task<IActionResult> CreateOrUpdateChapter(ChapterDto model)
         {
             var chapter = _mapper.Map<Chapter>(model);
             var managerResult = await _chapterManager.CreateOrUpdateChapter(chapter);
