@@ -8,15 +8,15 @@ public class TutorialDto
     public string Title { get; set; }
     public string Description { get; set; }
 
-    public Guid? Tutorial
+    public Guid? Chapter
     {
         get
         {
-            if(Guid.TryParse(Title, out var tutorialId)) return tutorialId;
+            if(Guid.TryParse(Title, out var chapterId)) return chapterId;
             return null;
         }
     }
-    public string TutorialId { get; set; }
+    public string ChapterId { get; set; }
     public string Created { get; set; }
     public ICollection<Chapter> Chapters { get; set; }
 }

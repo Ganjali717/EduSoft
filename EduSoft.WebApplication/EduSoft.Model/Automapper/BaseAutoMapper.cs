@@ -31,6 +31,11 @@ namespace EduSoft.Model.Automapper
             CreateMap<Job, JobDTO>();
             #endregion
 
+            #region Chapter
+            CreateMap<Chapter, ChapterDto>();
+            CreateMap<ChapterDto, Chapter>();
+            #endregion
+
             #region ManagerResultRegion
             CreateMap(typeof(ManagerResult<>), typeof(ManagerResult<>));
             CreateMap(typeof(PagedManagerResult<>), typeof(PagedManagerResult<>));
