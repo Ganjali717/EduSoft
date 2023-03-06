@@ -800,3 +800,102 @@ INFO  2023-03-05 20:24:01,151   397ms Lifetime               ?                  
 INFO  2023-03-05 20:24:01,153   399ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
 INFO  2023-03-05 20:24:01,155   401ms Lifetime               ApplicationStarted - Hosting environment: Development
 INFO  2023-03-05 20:24:01,155   401ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 11:50:35,544   338ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 11:50:35,571   366ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 11:50:35,573   368ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 11:50:35,573   368ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+ERROR 2023-03-06 11:50:36,154   949ms xceptionPageMiddleware ?                  - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 2023-03-06 11:50:36,555  1350ms xceptionPageMiddleware ?                  - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2023-03-06 11:51:15,637   307ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 11:51:15,665   335ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 11:51:15,667   336ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 11:51:15,667   337ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 11:52:00,644   294ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 11:52:00,673   323ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 11:52:00,675   325ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 11:52:00,675   325ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 11:52:39,807   297ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 11:52:39,836   325ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 11:52:39,838   328ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 11:52:39,838   328ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 11:53:51,010   300ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 11:53:51,044   334ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 11:53:51,046   336ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 11:53:51,047   337ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 11:53:54,298  3588ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+ERROR 2023-03-06 11:53:54,574  3864ms xceptionPageMiddleware ?                  - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Caching.Memory.IMemoryCache' while attempting to activate 'EduSoft.WebApplication.Controllers.TutorialController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2023-03-06 11:54:19,031   280ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 11:54:19,058   307ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 11:54:19,060   309ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 11:54:19,060   309ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 11:54:21,493  2742ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 11:54:23,271  4520ms Command                ?                  - Executed DbCommand (39ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+INFO  2023-03-06 11:55:54,961   277ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 11:55:54,987   304ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 11:55:54,989   306ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 11:55:54,989   306ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 11:56:03,985   274ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 11:56:04,017   306ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 11:56:04,019   308ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 11:56:04,019   308ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 11:56:06,887  3176ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 11:56:08,541  4830ms Command                ?                  - Executed DbCommand (41ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+INFO  2023-03-06 11:56:24,013   277ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 11:56:24,038   302ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 11:56:24,040   304ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 11:56:24,040   304ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 11:56:26,506  2770ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 11:56:28,054  4318ms Command                ?                  - Executed DbCommand (37ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+INFO  2023-03-06 11:56:38,776   265ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 11:56:38,801   291ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 11:56:38,803   293ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 11:56:38,803   293ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 11:56:43,285  4775ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 11:56:44,853  6343ms Command                ?                  - Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+INFO  2023-03-06 11:57:01,746   275ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 11:57:01,771   300ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 11:57:01,773   302ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 11:57:01,773   302ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 11:57:15,371 13901ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 11:57:16,982 15511ms Command                ?                  - Executed DbCommand (39ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+INFO  2023-03-06 11:58:17,802   275ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 11:58:17,833   306ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 11:58:17,835   308ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 11:58:17,835   308ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\

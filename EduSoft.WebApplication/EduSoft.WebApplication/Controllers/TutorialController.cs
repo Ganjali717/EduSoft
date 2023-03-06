@@ -11,32 +11,28 @@ using System.Xml.Linq;
 
 namespace EduSoft.WebApplication.Controllers
 {
-    public class TutorialController : Controller
+    public class TutorialController : ControllerBase
     {
         private readonly ITutorialManager _manager;
         private readonly IMapper _mapper;
-        private readonly IMemoryCache _memoryCache;
-        public TutorialController(ITutorialManager manager, IMapper mapper, IMemoryCache memoryCache)
+        public TutorialController(ITutorialManager manager, IMapper mapper)
         {
             _manager = manager;
             _mapper = mapper;
-            _memoryCache = memoryCache;
         }
-
-        public IActionResult Index() {  return View("Index"); }
         
         [HttpGet]
-        [Route("api/getalltut")]
-        public IActionResult Dictionary()
+        [Route("api/GetAllTutorials")]
+        public IActionResult GetAllTutorials()
         {
-            var managerResult = _manager.GetAllTutorials().Result.Data;
-            /*if (!managerResult.Result.Success)
+            var managerResult = _manager.GetAllTutorials();
+            if (!managerResult.Result.Success)
             {
                 Response.StatusCode = (int)HttpStatusCode.BadRequest;
-                return Json(managerResult.Result.Message);
+                return Ok(managerResult.Result.Message);
             }
-            var mappedResult = _mapper.Map<ManagerResult<List<TutorialDto>>>(managerResult.Result);*/
-            return Json(managerResult);
+            var mappedResult = _mapper.Map<ManagerResult<List<TutorialDto>>>(managerResult.Result);
+            return Ok(mappedResult);
         }
     }
 }
