@@ -62,6 +62,18 @@ namespace EduSoft.WebApplication.Controllers
             Response.StatusCode = (int)HttpStatusCode.BadRequest;
             return Ok(managerResult.Message);
         }
-       
+
+        [HttpDelete]
+        [Route("api/RemoveTutorial")]
+        public IActionResult RemoveTutorial(Guid id)
+        {
+            var managerResult = _manager.DeleteTutorial(id);
+            if (!managerResult.Result.Success)
+            {
+                Response.StatusCode = (int)HttpStatusCode.NotFound;
+                return Ok(managerResult.Result.Message);
+            }
+            return Ok(managerResult.Result.Message);
+        }
     }
 }
