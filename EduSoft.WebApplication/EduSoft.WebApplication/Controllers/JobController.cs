@@ -8,6 +8,8 @@ using EduSoft.Model.DTO.Jobs;
 
 namespace EduSoft.WebApplication.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class JobController : ControllerBase
     {
         private readonly IJobManager _jobManager;
@@ -20,7 +22,7 @@ namespace EduSoft.WebApplication.Controllers
         }
 
         [HttpGet]
-        [Route("api/GetAllVacancies")]
+        [Route("GetAllVacancies")]
         public IActionResult GetAllVacancies()
         {
             var managerResult = _jobManager.GetAllJobs();
@@ -34,7 +36,7 @@ namespace EduSoft.WebApplication.Controllers
         }
 
         [HttpGet]
-        [Route("api/GetVacancy/{id}")]
+        [Route("GetVacancy/{id}")]
         public IActionResult GetJobById(Guid id)
         {
             var managerResult = _jobManager.GetJobById(id);
@@ -48,7 +50,7 @@ namespace EduSoft.WebApplication.Controllers
         }
 
         [HttpPost]
-        [Route("api/addVacancy")]
+        [Route("addVacancy")]
         [DisableRequestSizeLimit]
         public IActionResult CreateOrUpdateVacancy(JobDTO model)
         {
@@ -60,7 +62,7 @@ namespace EduSoft.WebApplication.Controllers
         }
 
         [HttpDelete]
-        [Route("api/RemoveVacancy/{id}")]
+        [Route("RemoveVacancy/{id}")]
         public IActionResult DeleteJob(Guid id)
         {
             var managerResult = _jobManager.RemoveJob(id);

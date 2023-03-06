@@ -14,6 +14,8 @@ using EduSoft.Model.DTO.Jobs;
 
 namespace EduSoft.WebApplication.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class TutorialController : ControllerBase
     {
         private readonly ITutorialManager _manager;
@@ -25,7 +27,7 @@ namespace EduSoft.WebApplication.Controllers
         }
         
         [HttpGet]
-        [Route("api/GetAllTutorials")]
+        [Route("GetAllTutorials")]
         public IActionResult GetAllTutorials()
         {
             var managerResult = _manager.GetAllTutorials();
@@ -39,7 +41,7 @@ namespace EduSoft.WebApplication.Controllers
         }
 
         [HttpGet]
-        [Route("api/GetTutorial/{id}")]
+        [Route("GetTutorial/{id}")]
         public IActionResult GetTutorialById(Guid id)
         {
             var managerResult = _manager.GetTutorial(id);
@@ -53,7 +55,7 @@ namespace EduSoft.WebApplication.Controllers
         }
 
         [HttpPost]
-        [Route("api/CreateOrUpdateTutorial")]
+        [Route("CreateOrUpdateTutorial")]
         public IActionResult CreateOrUpdateTutorial(Tutorial model)
         {
             var jobs = _mapper.Map<Tutorial>(model);
@@ -64,7 +66,7 @@ namespace EduSoft.WebApplication.Controllers
         }
 
         [HttpDelete]
-        [Route("api/RemoveTutorial/{id}")]
+        [Route("RemoveTutorial/{id}")]
         public IActionResult RemoveTutorial(Guid id)
         {
             var managerResult = _manager.DeleteTutorial(id);

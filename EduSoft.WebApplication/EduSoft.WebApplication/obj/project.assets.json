@@ -4395,23 +4395,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\LENOVO\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.WebApplication\\EduSoft.WebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.WebApplication\\EduSoft.WebApplication.csproj",
       "projectName": "EduSoft.WebApplication",
-      "projectPath": "C:\\Users\\User\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.WebApplication\\EduSoft.WebApplication.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.WebApplication\\obj\\",
+      "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.WebApplication\\EduSoft.WebApplication.csproj",
+      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.WebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4420,18 +4420,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.Data\\EduSoft.Data.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.Data\\EduSoft.Data.csproj"
+            "C:\\Users\\LENOVO\\OneDrive\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.Data\\EduSoft.Data.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.Data\\EduSoft.Data.csproj"
             },
-            "C:\\Users\\User\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.Entities\\EduSoft.Entities.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.Entities\\EduSoft.Entities.csproj"
+            "C:\\Users\\LENOVO\\OneDrive\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.Entities\\EduSoft.Entities.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.Entities\\EduSoft.Entities.csproj"
             }
           }
         }

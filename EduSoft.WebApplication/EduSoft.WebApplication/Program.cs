@@ -11,13 +11,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection")));
 builder.Services.AddAutoMapper(c => c.AddProfile<BaseAutoMapper>(), typeof(Program));
-builder.Logging.AddLog4Net("log4net.config");
 builder.Services.AddTransient<AppDbContext>();
 builder.Services.AddScoped<ITutorialManager, TutorialManager>();
 builder.Services.AddScoped<IChapterManager, ChapterManager>();
 builder.Services.AddScoped<ISubChapterManager, SubChapterManager>();
 builder.Services.AddScoped<IAccountManager, AccountManager>();
 builder.Services.AddScoped<IJobManager, JobManager>();
+builder.Logging.AddLog4Net("log4net.config");
 #endregion
 
 

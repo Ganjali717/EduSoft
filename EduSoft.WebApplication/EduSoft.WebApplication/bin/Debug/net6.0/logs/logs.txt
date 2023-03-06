@@ -1306,3 +1306,213 @@ INFO  2023-03-06 16:06:45,021   313ms Lifetime               ?                  
 INFO  2023-03-06 16:06:45,050   342ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
 INFO  2023-03-06 16:06:45,053   344ms Lifetime               ApplicationStarted - Hosting environment: Development
 INFO  2023-03-06 16:06:45,053   345ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 22:10:41,261   422ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 22:10:41,309   470ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 22:10:41,312   473ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 22:10:41,312   473ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 22:10:46,842  6003ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+ERROR 2023-03-06 22:10:49,078  8239ms Command                ?                  - Failed executing DbCommand (43ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [j].[Id], [j].[Company], [j].[Created], [j].[Description], [j].[Location], [j].[Salary], [j].[Title]
+FROM [Jobs] AS [j]
+ERROR 2023-03-06 22:10:49,113  8274ms Query                  ?                  - An exception occurred while iterating over the results of a query for context type 'EduSoft.Data.DatabaseContext.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Jobs'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:af899172-b640-4cb4-8d18-949e62461016
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Jobs'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:af899172-b640-4cb4-8d18-949e62461016
+Error Number:208,State:1,Class:16
+ERROR 2023-03-06 22:10:49,134  8295ms JobManager             MoveNext           - Invalid object name 'Jobs'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Jobs'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at EduSoft.Data.Managers.Services.JobManager.GetAllJobs() in C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Data\Managers\Services\JobManager.cs:line 27
+ClientConnectionId:af899172-b640-4cb4-8d18-949e62461016
+Error Number:208,State:1,Class:16
+ERROR 2023-03-06 22:10:57,107 16268ms Command                ?                  - Failed executing DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+ERROR 2023-03-06 22:10:57,111 16272ms Query                  ?                  - An exception occurred while iterating over the results of a query for context type 'EduSoft.Data.DatabaseContext.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Tutorials'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:af899172-b640-4cb4-8d18-949e62461016
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Tutorials'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:af899172-b640-4cb4-8d18-949e62461016
+Error Number:208,State:1,Class:16
+ERROR 2023-03-06 22:10:57,114 16275ms TutorialManager        MoveNext           - Invalid object name 'Tutorials'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Tutorials'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at EduSoft.Data.Managers.Services.TutorialManager.GetAllTutorials() in C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Data\Managers\Services\TutorialManager.cs:line 31
+ClientConnectionId:af899172-b640-4cb4-8d18-949e62461016
+Error Number:208,State:1,Class:16
+ERROR 2023-03-06 22:10:58,329 17490ms Command                ?                  - Failed executing DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+ERROR 2023-03-06 22:10:58,332 17493ms Query                  ?                  - An exception occurred while iterating over the results of a query for context type 'EduSoft.Data.DatabaseContext.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Tutorials'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:af899172-b640-4cb4-8d18-949e62461016
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Tutorials'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:af899172-b640-4cb4-8d18-949e62461016
+Error Number:208,State:1,Class:16
+ERROR 2023-03-06 22:10:58,335 17497ms TutorialManager        MoveNext           - Invalid object name 'Tutorials'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Tutorials'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at EduSoft.Data.Managers.Services.TutorialManager.GetAllTutorials() in C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Data\Managers\Services\TutorialManager.cs:line 31
+ClientConnectionId:af899172-b640-4cb4-8d18-949e62461016
+Error Number:208,State:1,Class:16
+INFO  2023-03-06 22:12:20,613   288ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 22:12:20,637   313ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 22:12:20,639   315ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 22:12:20,639   315ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 22:12:24,767  4443ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 22:12:26,550  6226ms Command                ?                  - Executed DbCommand (45ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+INFO  2023-03-06 22:12:36,306 15982ms Command                ?                  - Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [j].[Id], [j].[Company], [j].[Created], [j].[Description], [j].[Location], [j].[Salary], [j].[Title]
+FROM [Jobs] AS [j]
+INFO  2023-03-06 22:12:37,459 17135ms Command                ?                  - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [j].[Id], [j].[Company], [j].[Created], [j].[Description], [j].[Location], [j].[Salary], [j].[Title]
+FROM [Jobs] AS [j]
+INFO  2023-03-06 22:12:56,175   278ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 22:12:56,207   311ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 22:12:56,209   313ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 22:12:56,210   313ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 22:13:59,789   304ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 22:13:59,817   332ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 22:13:59,819   334ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 22:13:59,819   334ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 22:14:15,320   279ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 22:14:15,353   311ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 22:14:15,355   313ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 22:14:15,355   313ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 22:14:25,595   267ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 22:14:25,626   298ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 22:14:25,627   299ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 22:14:25,627   300ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 22:14:37,955   295ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 22:14:37,984   325ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 22:14:37,986   326ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 22:14:37,986   327ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 22:14:44,885   273ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 22:14:44,915   304ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 22:14:44,917   306ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 22:14:44,917   306ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 22:15:06,313   274ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 22:15:06,340   301ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 22:15:06,342   302ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 22:15:06,342   303ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 22:15:41,136   304ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 22:15:41,166   335ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 22:15:41,168   337ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 22:15:41,169   337ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\

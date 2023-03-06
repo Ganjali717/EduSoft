@@ -11,6 +11,8 @@ using EduSoft.Entities.Security;
 
 namespace EduSoft.WebApplication.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class AuthController : ControllerBase
     {
         private const string schema = "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/";
@@ -23,7 +25,7 @@ namespace EduSoft.WebApplication.Controllers
         }
 
         [HttpPost]
-        [Route("api/login")]
+        [Route("login")]
         public async Task<IActionResult> Login([FromBody] LoginDto data)
         {
             var managerResult = _accountManager.Login(data.Username, data.Password);

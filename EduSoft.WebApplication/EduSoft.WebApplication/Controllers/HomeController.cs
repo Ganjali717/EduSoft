@@ -4,7 +4,9 @@ using EduSoft.Data.Managers.Interfaces;
 
 namespace EduSoft.WebApplication.Controllers
 {
-    public class HomeController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class HomeController : ControllerBase
     {
         private readonly ITutorialManager _tutorialManager;
         public HomeController(ITutorialManager tutorialManager)
