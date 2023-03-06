@@ -33,13 +33,28 @@ namespace EduSoft.WebApplication.Controllers
             return Ok(mappedResult);
         }
 
+
+        [HttpGet]
+        [Route("api/GetVacancy/{id}")]
+        public IActionResult GetJobById(Guid id)
+        {
+            var managerResult = _jobManager.GetJobById(id);
+            if (!managerResult.Result.Success)
+            {
+                Response.StatusCode = (int)HttpStatusCode.NotFound;
+                return Ok(managerResult.Result.Message);
+            }
+            var mapperResult = _mapper.Map<ManagerResult<JobDTO>>(managerResult.Result);
+            return Ok(mapperResult.Data);
+        }
+
         [HttpPost]
         [Route("api/addVacancy")]
         [DisableRequestSizeLimit]
-        public async Task<IActionResult> AddVacancy(JobDTO model)
+        public IActionResult AddVacancy(JobDTO model)
         {
             var jobs = _mapper.Map<Job>(model);
-            var managerResult = _jobManager.CreateOrUpdateJob(jobs).Result;
+            var managerResult =  _jobManager.CreateOrUpdateJob(jobs).Result;
             if (managerResult.Success) return Json(_mapper.Map<ManagerResult<JobDTO>>(managerResult));
             Response.StatusCode = (int)HttpStatusCode.BadRequest;
             return Ok(managerResult.Message);

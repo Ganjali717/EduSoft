@@ -1173,3 +1173,65 @@ INFO  2023-03-06 15:02:37,086   278ms Lifetime               ?                  
 INFO  2023-03-06 15:02:37,121   313ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
 INFO  2023-03-06 15:02:37,123   315ms Lifetime               ApplicationStarted - Hosting environment: Development
 INFO  2023-03-06 15:02:37,124   315ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 15:04:37,566   265ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 15:04:37,593   292ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 15:04:37,595   294ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 15:04:37,595   294ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 15:06:15,007   278ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 15:06:15,032   304ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 15:06:15,034   305ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 15:06:15,034   306ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 15:06:24,365  9637ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 15:06:26,048 11319ms Command                ?                  - Executed DbCommand (53ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [j].[Id], [j].[Company], [j].[Created], [j].[Description], [j].[Location], [j].[Salary], [j].[Title]
+FROM [Jobs] AS [j]
+WHERE [j].[Id] = @__get_Item_0
+INFO  2023-03-06 15:06:45,942   270ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 15:06:45,969   297ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 15:06:45,971   299ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 15:06:45,971   299ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 15:06:58,503 12830ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 15:07:00,216 14544ms Command                ?                  - Executed DbCommand (59ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [j].[Id], [j].[Company], [j].[Created], [j].[Description], [j].[Location], [j].[Salary], [j].[Title]
+FROM [Jobs] AS [j]
+WHERE [j].[Id] = @__get_Item_0
+ERROR 2023-03-06 15:07:00,323 14650ms xceptionPageMiddleware ?                  - An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> ManagerResult`1
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[EduSoft.Entities.ManagerResult`1[[EduSoft.Entities.Jobs.Job, EduSoft.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], EduSoft.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[EduSoft.Data.Managers.Services.JobManager+<GetJobById>d__4, EduSoft.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> EduSoft.Entities.ManagerResult`1[[EduSoft.Model.DTO.Jobs.JobDTO, EduSoft.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method55(Closure , Object , ManagerResult`1 , ResolutionContext )
+   at EduSoft.WebApplication.Controllers.JobController.GetJobById(Guid id) in C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\Controllers\JobController.cs:line 47
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2023-03-06 15:07:07,293   271ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 15:07:07,323   300ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 15:07:07,324   302ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 15:07:07,324   302ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 15:07:23,059   301ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 15:07:23,085   327ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 15:07:23,087   329ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 15:07:23,087   329ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 15:07:26,910  4152ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 15:07:28,661  5902ms Command                ?                  - Executed DbCommand (53ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [j].[Id], [j].[Company], [j].[Created], [j].[Description], [j].[Location], [j].[Salary], [j].[Title]
+FROM [Jobs] AS [j]
+WHERE [j].[Id] = @__get_Item_0
