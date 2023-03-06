@@ -1235,3 +1235,22 @@ INFO  2023-03-06 15:07:28,661  5902ms Command                ?                  
 SELECT TOP(1) [j].[Id], [j].[Company], [j].[Created], [j].[Description], [j].[Location], [j].[Salary], [j].[Title]
 FROM [Jobs] AS [j]
 WHERE [j].[Id] = @__get_Item_0
+INFO  2023-03-06 15:08:04,307   271ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 15:08:04,335   300ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 15:08:04,337   301ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 15:08:04,338   302ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 15:09:52,395   276ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 15:09:52,425   306ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 15:09:52,427   308ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 15:09:52,427   308ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 15:09:59,226  7107ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 15:10:00,874  8755ms Command                ?                  - Executed DbCommand (57ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [j].[Id], [j].[Company], [j].[Created], [j].[Description], [j].[Location], [j].[Salary], [j].[Title]
+FROM [Jobs] AS [j]
+WHERE [j].[Id] = @__get_Item_0
+INFO  2023-03-06 15:10:01,078  8959ms Command                ?                  - Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Jobs]
+OUTPUT 1
+WHERE [Id] = @p0;

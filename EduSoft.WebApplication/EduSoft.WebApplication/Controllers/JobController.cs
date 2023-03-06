@@ -59,5 +59,18 @@ namespace EduSoft.WebApplication.Controllers
             Response.StatusCode = (int)HttpStatusCode.BadRequest;
             return Ok(managerResult.Message);
         }
+
+        [HttpDelete]
+        [Route("api/RemoveVacancy")]
+        public IActionResult DeleteJob(Guid id)
+        {
+            var managerResult = _jobManager.RemoveJob(id);
+            if (!managerResult.Result.Success)
+            {
+                Response.StatusCode = (int)HttpStatusCode.NotFound;
+                return Ok(managerResult.Result.Message);
+            }
+            return Ok(managerResult.Result.Message);
+        }
     }
 }
