@@ -28,38 +28,38 @@ namespace EduSoft.WebApplication.Controllers
         
         [HttpGet]
         [Route("GetAllTutorials")]
-        public IActionResult GetAllTutorials()
+        public async Task<IActionResult> GetAllTutorials()
         {
-            var managerResult = _manager.GetAllTutorials();
-            if (!managerResult.Result.Success)
+            var managerResult = await _manager.GetAllTutorials();
+            if (!managerResult.Success)
             {
                 Response.StatusCode = (int)HttpStatusCode.BadRequest;
-                return Ok(managerResult.Result.Message);
+                return Ok(managerResult.Message);
             }
-            var mappedResult = _mapper.Map<ManagerResult<List<TutorialDto>>>(managerResult.Result);
+            var mappedResult = _mapper.Map<ManagerResult<List<TutorialDto>>>(managerResult);
             return Ok(mappedResult.Data);
         }
 
         [HttpGet]
         [Route("GetTutorial/{id}")]
-        public IActionResult GetTutorialById(Guid id)
+        public async Task<IActionResult> GetTutorialById(Guid id)
         {
-            var managerResult = _manager.GetTutorial(id);
-            if (!managerResult.Result.Success)
+            var managerResult = await _manager.GetTutorial(id);
+            if (!managerResult.Success)
             {
                 Response.StatusCode = (int)HttpStatusCode.BadRequest;
-                return Ok(managerResult.Result.Message);
+                return Ok(managerResult.Message);
             }
-            var mappedResult = _mapper.Map<ManagerResult<TutorialDto>>(managerResult.Result);
+            var mappedResult = _mapper.Map<ManagerResult<TutorialDto>>(managerResult);
             return Ok(mappedResult.Data);
         }
 
         [HttpPost]
         [Route("CreateOrUpdateTutorial")]
-        public IActionResult CreateOrUpdateTutorial(Tutorial model)
+        public async Task<IActionResult> CreateOrUpdateTutorial(Tutorial model)
         {
             var jobs = _mapper.Map<Tutorial>(model);
-            var managerResult = _manager.CreateOrUpdateTutorial(jobs).Result;
+            var managerResult = await _manager.CreateOrUpdateTutorial(jobs);
             if (managerResult.Success) return Ok(_mapper.Map<ManagerResult<JobDTO>>(managerResult));
             Response.StatusCode = (int)HttpStatusCode.BadRequest;
             return Ok(managerResult.Message);
@@ -67,15 +67,15 @@ namespace EduSoft.WebApplication.Controllers
 
         [HttpDelete]
         [Route("RemoveTutorial/{id}")]
-        public IActionResult RemoveTutorial(Guid id)
+        public async Task<IActionResult> RemoveTutorial(Guid id)
         {
-            var managerResult = _manager.DeleteTutorial(id);
-            if (!managerResult.Result.Success)
+            var managerResult = await _manager.DeleteTutorial(id);
+            if (!managerResult.Success)
             {
                 Response.StatusCode = (int)HttpStatusCode.NotFound;
-                return Ok(managerResult.Result.Message);
+                return Ok(managerResult.Message);
             }
-            return Ok(managerResult.Result.Message);
+            return Ok(managerResult.Message);
         }
     }
 }
