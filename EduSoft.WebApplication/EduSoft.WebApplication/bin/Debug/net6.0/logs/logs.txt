@@ -1254,3 +1254,15 @@ SET NOCOUNT ON;
 DELETE FROM [Jobs]
 OUTPUT 1
 WHERE [Id] = @p0;
+INFO  2023-03-06 15:11:31,859   289ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 15:11:31,884   315ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 15:11:31,886   316ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 15:11:31,886   317ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 15:14:36,382   310ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 15:14:36,414   341ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 15:14:36,416   343ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 15:14:36,416   344ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 15:33:04,286   292ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 15:33:04,312   318ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 15:33:04,314   320ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 15:33:04,315   320ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\

@@ -8,6 +8,9 @@ using Microsoft.Extensions.Caching.Memory;
 using System.Collections.Generic;
 using EduSoft.Entities.Tutorials;
 using System.Xml.Linq;
+using EduSoft.Data.Managers.Services;
+using EduSoft.Entities.Jobs;
+using EduSoft.Model.DTO.Jobs;
 
 namespace EduSoft.WebApplication.Controllers
 {
@@ -48,5 +51,17 @@ namespace EduSoft.WebApplication.Controllers
             var mappedResult = _mapper.Map<ManagerResult<TutorialDto>>(managerResult.Result);
             return Ok(mappedResult.Data);
         }
+
+        [HttpPost]
+        [Route("api/CreateOrUpdateTutorial")]
+        public IActionResult CreateOrUpdateTutorial(Tutorial model)
+        {
+            var jobs = _mapper.Map<Tutorial>(model);
+            var managerResult = _manager.CreateOrUpdateTutorial(jobs).Result;
+            if (managerResult.Success) return Ok(_mapper.Map<ManagerResult<JobDTO>>(managerResult));
+            Response.StatusCode = (int)HttpStatusCode.BadRequest;
+            return Ok(managerResult.Message);
+        }
+       
     }
 }

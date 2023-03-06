@@ -33,7 +33,6 @@ namespace EduSoft.WebApplication.Controllers
             return Ok(mappedResult);
         }
 
-
         [HttpGet]
         [Route("api/GetVacancy/{id}")]
         public IActionResult GetJobById(Guid id)
@@ -51,7 +50,7 @@ namespace EduSoft.WebApplication.Controllers
         [HttpPost]
         [Route("api/addVacancy")]
         [DisableRequestSizeLimit]
-        public IActionResult AddVacancy(JobDTO model)
+        public IActionResult CreateOrUpdateVacancy(JobDTO model)
         {
             var jobs = _mapper.Map<Job>(model);
             var managerResult =  _jobManager.CreateOrUpdateJob(jobs).Result;
