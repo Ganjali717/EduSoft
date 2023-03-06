@@ -899,3 +899,105 @@ INFO  2023-03-06 11:58:17,802   275ms Lifetime               ?                  
 INFO  2023-03-06 11:58:17,833   306ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
 INFO  2023-03-06 11:58:17,835   308ms Lifetime               ApplicationStarted - Hosting environment: Development
 INFO  2023-03-06 11:58:17,835   308ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 14:31:46,044   314ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:31:46,072   342ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:31:46,074   344ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:31:46,074   345ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 14:32:01,479 15750ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 14:32:03,220 17490ms Command                ?                  - Executed DbCommand (55ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+WHERE [t].[Id] = @__get_Item_0
+INFO  2023-03-06 14:32:06,150 20420ms Command                ?                  - Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+WHERE [t].[Id] = @__get_Item_0
+INFO  2023-03-06 14:34:37,187   272ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:34:37,213   298ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:34:37,215   300ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:34:37,215   300ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 14:34:41,534  4618ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 14:34:43,254  6338ms Command                ?                  - Executed DbCommand (61ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+WHERE [t].[Id] = @__get_Item_0
+INFO  2023-03-06 14:35:13,881   327ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:35:13,910   356ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:35:13,912   358ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:35:13,913   358ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 14:35:27,975 14421ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 14:35:29,654 16100ms Command                ?                  - Executed DbCommand (55ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+WHERE [t].[Id] = @__get_Item_0
+INFO  2023-03-06 14:35:45,892   600ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:35:45,945   653ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:35:45,950   658ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:35:45,951   660ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 14:35:50,624  5332ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 14:36:07,705 22413ms Command                ?                  - Executed DbCommand (84ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+WHERE [t].[Id] = @__get_Item_0
+INFO  2023-03-06 14:38:13,484   281ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:38:13,521   318ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:38:13,524   321ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:38:13,524   321ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 14:38:16,991  3788ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 14:38:18,730  5527ms Command                ?                  - Executed DbCommand (53ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+WHERE [t].[Id] = @__id_0
+INFO  2023-03-06 14:38:29,465   728ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:38:29,557   820ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:38:29,616   879ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:38:29,619   883ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 14:38:33,826  5089ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 14:38:40,083 11346ms Command                ?                  - Executed DbCommand (78ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+WHERE [t].[Id] = @__id_0
+INFO  2023-03-06 14:39:23,284   282ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:39:23,316   314ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:39:23,317   316ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:39:23,318   316ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 14:39:27,311  4310ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 14:39:29,030  6028ms Command                ?                  - Executed DbCommand (54ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+WHERE [t].[Id] = @__id_0
+INFO  2023-03-06 14:39:50,420   285ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:39:50,445   310ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:39:50,447   312ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:39:50,447   312ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 14:39:57,566  7431ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 14:39:59,166  9031ms Command                ?                  - Executed DbCommand (49ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+WHERE [t].[Id] = @__id_0
+INFO  2023-03-06 14:40:24,485   267ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:40:24,513   294ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:40:24,514   296ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:40:24,515   296ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 14:40:28,465  4247ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 14:40:30,271  6053ms Command                ?                  - Executed DbCommand (52ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+WHERE [t].[Id] = @__id_0
+INFO  2023-03-06 14:41:10,999   274ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:41:11,029   304ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:41:11,032   307ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:41:11,032   307ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 14:41:20,448  9723ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 14:41:22,064 11339ms Command                ?                  - Executed DbCommand (49ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+WHERE [t].[Id] = @__get_Item_0
+INFO  2023-03-06 14:41:43,783   277ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:41:43,814   307ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:41:43,815   309ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:41:43,816   310ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 14:41:47,798  4292ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 14:41:49,346  5840ms Command                ?                  - Executed DbCommand (40ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]

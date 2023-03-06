@@ -45,7 +45,9 @@ namespace EduSoft.Data.Managers.Services
             var result = new ManagerResult<Tutorial>();
             try
             {
-                var tutorialbyId = await _context.Tutorials.FindAsync(id);
+                var tutorial = await _context.Tutorials.FindAsync(id);
+                result.Data = tutorial;
+                result.Success = true;
             }
             catch (Exception ex)
             {

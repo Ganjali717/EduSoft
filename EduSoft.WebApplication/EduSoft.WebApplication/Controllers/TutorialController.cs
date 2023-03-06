@@ -32,7 +32,21 @@ namespace EduSoft.WebApplication.Controllers
                 return Ok(managerResult.Result.Message);
             }
             var mappedResult = _mapper.Map<ManagerResult<List<TutorialDto>>>(managerResult.Result);
-            return Ok(mappedResult);
+            return Ok(mappedResult.Data);
+        }
+
+        [HttpGet]
+        [Route("api/GetTutorial/{id}")]
+        public IActionResult GetTutorialById(Guid id)
+        {
+            var managerResult = _manager.GetTutorial(id);
+            if (!managerResult.Result.Success)
+            {
+                Response.StatusCode = (int)HttpStatusCode.BadRequest;
+                return Ok(managerResult.Result.Message);
+            }
+            var mappedResult = _mapper.Map<ManagerResult<TutorialDto>>(managerResult.Result);
+            return Ok(mappedResult.Data);
         }
     }
 }
