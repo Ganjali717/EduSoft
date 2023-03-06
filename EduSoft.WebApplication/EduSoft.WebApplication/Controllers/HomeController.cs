@@ -11,10 +11,6 @@ namespace EduSoft.WebApplication.Controllers
         {
             _tutorialManager = tutorialManager;
         }
-
-        public IActionResult Index()
-        {
-            return View();
-        }
+        
     }
 }

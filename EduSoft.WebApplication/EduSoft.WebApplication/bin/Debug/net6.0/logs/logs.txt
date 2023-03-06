@@ -1266,3 +1266,23 @@ INFO  2023-03-06 15:33:04,286   292ms Lifetime               ?                  
 INFO  2023-03-06 15:33:04,312   318ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
 INFO  2023-03-06 15:33:04,314   320ms Lifetime               ApplicationStarted - Hosting environment: Development
 INFO  2023-03-06 15:33:04,315   320ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 15:36:41,921   266ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 15:36:41,951   297ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 15:36:41,953   298ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 15:36:41,953   299ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 15:39:20,855   260ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 15:39:20,880   284ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 15:39:20,881   286ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 15:39:20,882   286ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 15:39:52,295   317ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 15:39:52,328   350ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 15:39:52,330   352ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 15:39:52,330   353ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 15:42:59,456   272ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 15:42:59,482   298ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 15:42:59,483   300ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 15:42:59,484   300ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 15:43:08,314   272ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 15:43:08,345   303ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 15:43:08,347   305ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 15:43:08,347   305ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\

@@ -64,7 +64,7 @@ namespace EduSoft.WebApplication.Controllers
         }
 
         [HttpDelete]
-        [Route("api/RemoveTutorial")]
+        [Route("api/RemoveTutorial/{id}")]
         public IActionResult RemoveTutorial(Guid id)
         {
             var managerResult = _manager.DeleteTutorial(id);

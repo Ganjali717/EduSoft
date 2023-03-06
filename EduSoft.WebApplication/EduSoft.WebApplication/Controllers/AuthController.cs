@@ -11,7 +11,7 @@ using EduSoft.Entities.Security;
 
 namespace EduSoft.WebApplication.Controllers
 {
-    public class AuthController : Controller
+    public class AuthController : ControllerBase
     {
         private const string schema = "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/";
         private readonly IAccountManager _accountManager;
@@ -22,31 +22,21 @@ namespace EduSoft.WebApplication.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet]
-        public IActionResult Login(string? returnUrl = null)
-        {
-            if (User.Identity is {IsAuthenticated: true})
-            {
-                return RedirectToAction("Index", "Home");
-            }
-            return Ok();
-        }
         [HttpPost]
+        [Route("api/login")]
         public async Task<IActionResult> Login([FromBody] LoginDto data)
         {
             var managerResult = _accountManager.Login(data.Username, data.Password);
             if (!managerResult.Result.Success)
             {
                 Response.StatusCode = (int)HttpStatusCode.BadRequest;
-                return Json(managerResult.Result.Message);
+                return Ok(managerResult.Result.Message);
             }
             await Authenticate(managerResult.Result.Data);
             managerResult.Result.Message = GetRedirectUrl(data.ReturnUrl, managerResult.Result.Data.Role);
-            return Json(managerResult.Result);
+            return Ok(managerResult.Result);
         }
 
-
-        
         private async Task Authenticate(AppUser account)
         {
             var claims = new List<Claim>

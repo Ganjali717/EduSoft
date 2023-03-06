@@ -8,7 +8,7 @@ using EduSoft.Model.DTO.Jobs;
 
 namespace EduSoft.WebApplication.Controllers
 {
-    public class JobController : Controller
+    public class JobController : ControllerBase
     {
         private readonly IJobManager _jobManager;
         private readonly IMapper _mapper;
@@ -54,13 +54,13 @@ namespace EduSoft.WebApplication.Controllers
         {
             var jobs = _mapper.Map<Job>(model);
             var managerResult =  _jobManager.CreateOrUpdateJob(jobs).Result;
-            if (managerResult.Success) return Json(_mapper.Map<ManagerResult<JobDTO>>(managerResult));
+            if (managerResult.Success) return Ok(_mapper.Map<ManagerResult<JobDTO>>(managerResult));
             Response.StatusCode = (int)HttpStatusCode.BadRequest;
             return Ok(managerResult.Message);
         }
 
         [HttpDelete]
-        [Route("api/RemoveVacancy")]
+        [Route("api/RemoveVacancy/{id}")]
         public IActionResult DeleteJob(Guid id)
         {
             var managerResult = _jobManager.RemoveJob(id);
