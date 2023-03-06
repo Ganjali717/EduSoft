@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using EduSoft.Entities;
+using EduSoft.Entities.Jobs;
 using EduSoft.Entities.Tutorials;
+using EduSoft.Model.DTO.Jobs;
 using EduSoft.Model.DTO.Tutorials;
 
 namespace EduSoft.Model.Automapper
@@ -21,7 +23,12 @@ namespace EduSoft.Model.Automapper
 
             #region AccountDTO
 
-            
+
+            #endregion
+
+            #region Jobs
+            CreateMap<JobDTO, Job>();
+            CreateMap<Job, JobDTO>();
             #endregion
 
             #region ManagerResultRegion

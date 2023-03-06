@@ -30,8 +30,10 @@ public class JobManager : IJobManager
                 result.Data = allJobs;
                 result.Success = true;
             }
-
-            result.Success = false;
+            else
+            {
+                result.Success = false;
+            }
         }
         catch (Exception ex)
         {

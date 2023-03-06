@@ -29,8 +29,15 @@ namespace EduSoft.Data.Managers.Services
             try
             {
                 var context = await _context.Tutorials.ToListAsync();
-                result.Data = context;
-                result.Success = true;
+                if (context != null)
+                {
+                    result.Data = context;
+                    result.Success = true;
+                }
+                else
+                {
+                    result.Success = false;
+                }
             }
             catch (Exception ex)
             {

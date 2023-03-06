@@ -1001,3 +1001,175 @@ WARN  2023-03-06 14:41:47,798  4292ms sRedirectionMiddleware ?                  
 INFO  2023-03-06 14:41:49,346  5840ms Command                ?                  - Executed DbCommand (40ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
 SELECT [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
 FROM [Tutorials] AS [t]
+INFO  2023-03-06 14:42:47,659   275ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:42:47,687   304ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:42:47,689   306ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:42:47,689   306ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 14:47:55,119   267ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:47:55,148   297ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:47:55,150   299ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:47:55,151   299ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 14:48:00,859  6008ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+ERROR 2023-03-06 14:48:02,407  7555ms Command                ?                  - Failed executing DbCommand (41ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [j].[Id], [j].[Company], [j].[Created], [j].[Description], [j].[Location], [j].[Salary], [j].[Title]
+FROM [Jobs] AS [j]
+ERROR 2023-03-06 14:48:02,438  7586ms Query                  ?                  - An exception occurred while iterating over the results of a query for context type 'EduSoft.Data.DatabaseContext.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Salary'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:1d19f796-f18f-49d0-a3cb-3cd0e404d3df
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Salary'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:1d19f796-f18f-49d0-a3cb-3cd0e404d3df
+Error Number:207,State:1,Class:16
+ERROR 2023-03-06 14:48:02,450  7598ms JobManager             MoveNext           - Invalid column name 'Salary'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Salary'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at EduSoft.Data.Managers.Services.JobManager.GetAllJobs() in C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Data\Managers\Services\JobManager.cs:line 27
+ClientConnectionId:1d19f796-f18f-49d0-a3cb-3cd0e404d3df
+Error Number:207,State:1,Class:16
+INFO  2023-03-06 14:48:33,933  1089ms Command                ?                  - Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+INFO  2023-03-06 14:48:33,989  1145ms Command                ?                  - Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+INFO  2023-03-06 14:48:33,994  1150ms Command                ?                  - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+INFO  2023-03-06 14:48:33,995  1151ms Command                ?                  - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+INFO  2023-03-06 14:48:34,017  1173ms Command                ?                  - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+INFO  2023-03-06 14:48:34,034  1190ms Migrations             ?                  - Applying migration '20230304174127_AddSalaryToJobs'.
+INFO  2023-03-06 14:48:34,096  1252ms Command                ?                  - Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+ALTER TABLE [Jobs] ADD [Salary] int NULL;
+INFO  2023-03-06 14:48:34,104  1260ms Command                ?                  - Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230304174127_AddSalaryToJobs', N'7.0.3');
+INFO  2023-03-06 14:48:38,614   286ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:48:38,640   311ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:48:38,641   313ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:48:38,642   313ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 14:48:40,800  2471ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 14:48:42,090  3762ms Command                ?                  - Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [j].[Id], [j].[Company], [j].[Created], [j].[Description], [j].[Location], [j].[Salary], [j].[Title]
+FROM [Jobs] AS [j]
+INFO  2023-03-06 14:52:01,483   266ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:52:01,511   293ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:52:01,512   295ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:52:01,513   295ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 14:52:18,972   275ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:52:18,999   301ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:52:19,001   304ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:52:19,002   304ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 14:56:07,008   265ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:56:07,038   296ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:56:07,040   297ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:56:07,040   298ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 14:56:59,976 53234ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+ERROR 2023-03-06 14:57:01,201 54459ms JobManager             MoveNext           - The key value at position 0 of the call to 'DbSet<Job>.Find' was of type 'Job', which does not match the property type of 'Guid'.
+System.ArgumentException: The key value at position 0 of the call to 'DbSet<Job>.Find' was of type 'Job', which does not match the property type of 'Guid'.
+   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.FindTracked(IKey key, Object[] keyValues)
+   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.FindAsync(Object[] keyValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.FindAsync(Object[] keyValues)
+   at EduSoft.Data.Managers.Services.JobManager.CreateOrUpdateJob(Job job) in C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Data\Managers\Services\JobManager.cs:line 78
+INFO  2023-03-06 14:57:47,068   266ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:57:47,098   296ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:57:47,101   298ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:57:47,101   299ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 14:57:55,852   261ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:57:55,876   285ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:57:55,878   287ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:57:55,878   287ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 14:58:42,549 46959ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+ERROR 2023-03-06 14:58:43,792 48202ms JobManager             MoveNext           - The key value at position 0 of the call to 'DbSet<Job>.Find' was of type 'Job', which does not match the property type of 'Guid'.
+System.ArgumentException: The key value at position 0 of the call to 'DbSet<Job>.Find' was of type 'Job', which does not match the property type of 'Guid'.
+   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.FindTracked(IKey key, Object[] keyValues)
+   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.FindAsync(Object[] keyValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.FindAsync(Object[] keyValues)
+   at EduSoft.Data.Managers.Services.JobManager.CreateOrUpdateJob(Job job) in C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Data\Managers\Services\JobManager.cs:line 78
+INFO  2023-03-06 14:58:59,353   754ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:58:59,414   816ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:58:59,419   820ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:58:59,421   822ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 14:59:23,342 24743ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 14:59:56,233   294ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 14:59:56,272   333ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 14:59:56,274   335ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 14:59:56,274   336ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 15:00:14,695 18756ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 15:00:16,379 20440ms Command                ?                  - Executed DbCommand (63ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32), @p6='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Jobs] ([Id], [Company], [Created], [Description], [Location], [Salary], [Title])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+INFO  2023-03-06 15:00:31,151   270ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 15:00:31,182   300ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 15:00:31,184   302ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 15:00:31,184   302ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 15:00:35,151  4269ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 15:00:36,695  5814ms Command                ?                  - Executed DbCommand (37ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [j].[Id], [j].[Company], [j].[Created], [j].[Description], [j].[Location], [j].[Salary], [j].[Title]
+FROM [Jobs] AS [j]
+INFO  2023-03-06 15:00:59,496   262ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 15:00:59,530   296ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 15:00:59,532   298ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 15:00:59,533   299ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 15:01:03,589  4355ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 15:01:05,156  5922ms Command                ?                  - Executed DbCommand (36ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [j].[Id], [j].[Company], [j].[Created], [j].[Description], [j].[Location], [j].[Salary], [j].[Title]
+FROM [Jobs] AS [j]
+INFO  2023-03-06 15:01:55,555   264ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 15:01:55,586   295ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 15:01:55,588   297ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 15:01:55,588   297ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+WARN  2023-03-06 15:01:57,822  2531ms sRedirectionMiddleware ?                  - Failed to determine the https port for redirect.
+INFO  2023-03-06 15:01:59,386  4094ms Command                ?                  - Executed DbCommand (38ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [j].[Id], [j].[Company], [j].[Created], [j].[Description], [j].[Location], [j].[Salary], [j].[Title]
+FROM [Jobs] AS [j]
+INFO  2023-03-06 15:02:05,128   345ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 15:02:05,157   374ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 15:02:05,160   377ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 15:02:05,160   377ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-06 15:02:37,086   278ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-06 15:02:37,121   313ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-06 15:02:37,123   315ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-06 15:02:37,124   315ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
