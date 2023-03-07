@@ -26,8 +26,7 @@ namespace EduSoft.WebApplication.Controllers
             _mapper = mapper;
         }
         
-        [HttpGet]
-        [Route("GetAllTutorials")]
+        [HttpGet("GetAllTutorials")]
         public async Task<IActionResult> GetAllTutorials()
         {
             var managerResult = await _manager.GetAllTutorials();
@@ -40,8 +39,7 @@ namespace EduSoft.WebApplication.Controllers
             return Ok(mappedResult.Data);
         }
 
-        [HttpGet]
-        [Route("GetTutorial/{id}")]
+        [HttpGet("GetTutorial/{id}")]
         public async Task<IActionResult> GetTutorialById(Guid id)
         {
             var managerResult = await _manager.GetTutorial(id);
@@ -54,8 +52,7 @@ namespace EduSoft.WebApplication.Controllers
             return Ok(mappedResult.Data);
         }
 
-        [HttpPost]
-        [Route("CreateOrUpdateTutorial")]
+        [HttpPost("CreateOrUpdateTutorial")]
         public async Task<IActionResult> CreateOrUpdateTutorial(TutorialDto model)
         {
             var jobs = _mapper.Map<Tutorial>(model);
@@ -65,8 +62,7 @@ namespace EduSoft.WebApplication.Controllers
             return Ok(managerResult.Message);
         }
 
-        [HttpDelete]
-        [Route("RemoveTutorial/{id}")]
+        [HttpDelete("RemoveTutorial/{id}")]
         public async Task<IActionResult> RemoveTutorial(Guid id)
         {
             var managerResult = await _manager.DeleteTutorial(id);

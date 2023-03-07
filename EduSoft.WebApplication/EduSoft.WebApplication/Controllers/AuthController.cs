@@ -24,8 +24,7 @@ namespace EduSoft.WebApplication.Controllers
             _mapper = mapper;
         }
 
-        [HttpPost]
-        [Route("Login")]
+        [HttpPost("Login")]
         public async Task<IActionResult> Login([FromBody] LoginDto data)
         {
             var managerResult = await _accountManager.Login(data.Username, data.Password);
