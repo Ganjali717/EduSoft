@@ -21,8 +21,7 @@ namespace EduSoft.WebApplication.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet]
-        [Route("GetAllVacancies")]
+        [HttpGet("GetAllVacancies")]
         public async Task<IActionResult> GetAllVacancies()
         {
             var managerResult = await _jobManager.GetAllJobs();
@@ -35,8 +34,7 @@ namespace EduSoft.WebApplication.Controllers
             return Ok(mappedResult);
         }
 
-        [HttpGet]
-        [Route("GetVacancy/{id}")]
+        [HttpGet("GetVacancy/{id}")]
         public async Task<IActionResult> GetJobById(Guid id)
         {
             var managerResult = await _jobManager.GetJobById(id);
@@ -49,8 +47,7 @@ namespace EduSoft.WebApplication.Controllers
             return Ok(mapperResult.Data);
         }
 
-        [HttpPost]
-        [Route("addVacancy")]
+        [HttpPost("addVacancy")]
         [DisableRequestSizeLimit]
         public async Task<IActionResult> CreateOrUpdateVacancy(JobDTO model)
         {
@@ -61,8 +58,7 @@ namespace EduSoft.WebApplication.Controllers
             return Ok(managerResult.Message);
         }
 
-        [HttpDelete]
-        [Route("RemoveVacancy/{id}")]
+        [HttpDelete("RemoveVacancy/{id}")]
         public async Task<IActionResult> DeleteJob(Guid id)
         { 
             var managerResult = await _jobManager.RemoveJob(id);
