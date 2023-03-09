@@ -1,4 +1,5 @@
-﻿using EduSoft.Data.DatabaseContext;
+﻿using System.Security.Cryptography.X509Certificates;
+using EduSoft.Data.DatabaseContext;
 using EduSoft.Data.Managers.Interfaces;
 using EduSoft.Entities;
 using EduSoft.Entities.Extentions;
@@ -109,6 +110,26 @@ public class AccountManager:IAccountManager
             }
             result.Success = true;
             result.Data = account;
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, ex.GetBaseException().Message);
+            result.Message = ex.GetBaseException().Message;
+        }
+        return result;
+    }
+
+    public async Task<ManagerResult<AppUser>> GetAccountByName(string username)
+    {
+        var result = new ManagerResult<AppUser>();
+        try
+        {
+            var user = await _context.AppUsers.Where(x=>x.FirstName == username).FirstOrDefaultAsync();
+            if (user != null)
+            {
+                result.Data = user;
+                result.Success = true;
+            }
         }
         catch (Exception ex)
         {

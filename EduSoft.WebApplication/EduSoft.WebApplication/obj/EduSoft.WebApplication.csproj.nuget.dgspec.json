@@ -277,6 +277,10 @@
               "target": "Package",
               "version": "[12.0.0, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
             "Microsoft.AspNetCore.ResponseCompression": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -310,6 +314,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
             }
           },
           "imports": [

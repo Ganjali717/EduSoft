@@ -1564,3 +1564,510 @@ INFO  2023-03-06 23:09:52,898   299ms Lifetime               ?                  
 INFO  2023-03-06 23:09:52,927   328ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
 INFO  2023-03-06 23:09:52,929   330ms Lifetime               ApplicationStarted - Hosting environment: Development
 INFO  2023-03-06 23:09:52,929   330ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-07 08:24:07,441   567ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-07 08:24:07,494   620ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-07 08:24:07,498   624ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-07 08:24:07,504   630ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-07 08:24:07,504   630ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-07 08:24:35,272 28398ms Command                ?                  - Executed DbCommand (47ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId]
+FROM [Chapters] AS [c]
+INFO  2023-03-07 08:30:21,737   364ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-07 08:30:21,762   389ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-07 08:30:21,765   392ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-07 08:30:21,767   394ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-07 08:30:21,767   394ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-07 08:43:42,771   389ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-07 08:43:42,793   411ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-07 08:43:42,795   413ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-07 08:43:42,796   415ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-07 08:43:42,797   415ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-07 08:44:16,018   357ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-07 08:44:16,040   380ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-07 08:44:16,042   382ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-07 08:44:16,044   383ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-07 08:44:16,044   384ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-07 08:53:06,237   391ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-07 08:53:06,260   414ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-07 08:53:06,262   416ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-07 08:53:06,263   418ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-07 08:53:06,264   418ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-07 08:55:25,085   358ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-07 08:55:25,108   380ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-07 08:55:25,110   382ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-07 08:55:25,111   384ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-07 08:55:25,111   384ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 09:28:01,279   693ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 09:28:01,338   751ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 09:28:01,340   754ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 09:28:01,343   757ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 09:28:01,343   757ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 09:28:26,211   392ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 09:28:26,234   415ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 09:28:26,236   418ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 09:28:26,238   419ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 09:28:26,238   419ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 09:29:36,306 70488ms Command                ?                  - Executed DbCommand (58ms) [Parameters=[@__8__locals1_email_0='?' (Size = 4000), @__hash_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[Email] = @__8__locals1_email_0 AND [a].[Password] = @__hash_1
+INFO  2023-03-09 09:30:50,793   824ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 09:30:50,844   875ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 09:30:50,851   883ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 09:30:50,855   887ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 09:30:50,858   889ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 09:31:13,292  1035ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 09:31:13,341  1083ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 09:31:13,348  1090ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 09:31:13,352  1094ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 09:31:13,354  1097ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 09:32:25,217   359ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 09:32:25,241   382ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 09:32:25,243   385ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 09:32:25,245   386ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 09:32:25,245   386ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 09:32:52,164 27305ms Command                ?                  - Executed DbCommand (57ms) [Parameters=[@__8__locals1_email_0='?' (Size = 4000), @__hash_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[Email] = @__8__locals1_email_0 AND [a].[Password] = @__hash_1
+ERROR 2023-03-09 09:32:52,300 27441ms xceptionPageMiddleware ?                  - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at EduSoft.WebApplication.Controllers.AuthController.Login(LoginDto data) in C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\Controllers\AuthController.cs:line 43
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2023-03-09 09:33:50,760   358ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 09:33:50,782   379ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 09:33:50,784   381ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 09:33:50,785   383ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 09:33:50,786   383ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 09:34:19,075 28673ms Command                ?                  - Executed DbCommand (50ms) [Parameters=[@__8__locals1_email_0='?' (Size = 4000), @__hash_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[Email] = @__8__locals1_email_0 AND [a].[Password] = @__hash_1
+INFO  2023-03-09 09:38:44,021   363ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 09:38:44,043   386ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 09:38:44,046   388ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 09:38:44,047   390ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 09:38:44,047   390ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 09:39:07,886 24229ms Command                ?                  - Executed DbCommand (49ms) [Parameters=[@__8__locals1_email_0='?' (Size = 4000), @__hash_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[Email] = @__8__locals1_email_0 AND [a].[Password] = @__hash_1
+INFO  2023-03-09 09:55:25,906   362ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 09:55:25,929   386ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 09:55:25,931   388ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 09:55:25,933   389ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 09:55:25,933   389ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 09:55:36,064   396ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 09:55:36,089   422ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 09:55:36,092   424ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 09:55:36,093   426ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 09:55:36,093   426ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 09:56:04,633 28965ms Command                ?                  - Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] IS NULL
+ERROR 2023-03-09 09:56:04,686 29019ms xceptionPageMiddleware ?                  - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EduSoft.WebApplication.Controllers.AuthController.GetAccount() in C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\Controllers\AuthController.cs:line 66
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2023-03-09 09:56:18,976   921ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 09:56:19,033   977ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 09:56:19,041   985ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 09:56:19,046   990ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 09:56:19,048   993ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 09:56:38,696   354ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 09:56:38,719   377ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 09:56:38,721   379ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 09:56:38,723   381ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 09:56:38,723   381ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 09:56:43,607  5265ms Command                ?                  - Executed DbCommand (40ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] IS NULL
+ERROR 2023-03-09 09:56:43,662  5320ms xceptionPageMiddleware ?                  - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EduSoft.WebApplication.Controllers.AuthController.GetAccount() in C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\Controllers\AuthController.cs:line 66
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2023-03-09 09:56:54,440   844ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 09:56:54,482   886ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 09:56:54,488   892ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 09:56:54,492   895ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 09:56:54,493   897ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 09:57:03,329  9732ms Command                ?                  - Executed DbCommand (50ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] IS NULL
+INFO  2023-03-09 09:58:10,064   969ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 09:58:10,107  1012ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 09:58:10,113  1018ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 09:58:10,116  1021ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 09:58:10,117  1022ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 09:58:24,871 15776ms Command                ?                  - Executed DbCommand (47ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] IS NULL
+INFO  2023-03-09 10:03:23,092   395ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 10:03:23,119   422ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 10:03:23,122   425ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 10:03:23,123   426ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 10:03:23,124   427ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 10:03:59,095 36398ms Command                ?                  - Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] IS NULL
+ERROR 2023-03-09 10:03:59,148 36450ms xceptionPageMiddleware ?                  - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EduSoft.WebApplication.Controllers.AuthController.GetAccount() in C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\Controllers\AuthController.cs:line 67
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2023-03-09 10:05:21,857 119159ms Command                ?                  - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] IS NULL
+ERROR 2023-03-09 10:05:21,859 119162ms xceptionPageMiddleware ?                  - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EduSoft.WebApplication.Controllers.AuthController.GetAccount() in C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\Controllers\AuthController.cs:line 67
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2023-03-09 10:21:48,943   409ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 10:21:48,966   432ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 10:21:48,969   434ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 10:21:48,970   435ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 10:21:48,970   436ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 10:21:59,166 10632ms Command                ?                  - Executed DbCommand (52ms) [Parameters=[@__8__locals1_email_0='?' (Size = 4000), @__hash_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[Email] = @__8__locals1_email_0 AND [a].[Password] = @__hash_1
+INFO  2023-03-09 10:22:15,922 27388ms Command                ?                  - Executed DbCommand (5ms) [Parameters=[@__8__locals1_email_0='?' (Size = 4000), @__hash_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[Email] = @__8__locals1_email_0 AND [a].[Password] = @__hash_1
+INFO  2023-03-09 10:22:59,493 70959ms Command                ?                  - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] IS NULL
+ERROR 2023-03-09 10:22:59,511 70976ms xceptionPageMiddleware ?                  - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EduSoft.WebApplication.Controllers.AuthController.GetAccount() in C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\Controllers\AuthController.cs:line 69
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2023-03-09 10:26:19,688   389ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 10:26:19,711   412ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 10:26:19,713   414ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 10:26:19,715   416ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 10:26:19,715   416ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 10:27:13,640   447ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 10:27:13,666   472ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 10:27:13,668   474ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 10:27:13,670   476ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 10:27:13,670   476ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 10:27:21,443  8249ms Command                ?                  - Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [j].[Id], [j].[Company], [j].[Created], [j].[Description], [j].[Location], [j].[Salary], [j].[Title]
+FROM [Jobs] AS [j]
+INFO  2023-03-09 10:27:26,861 13668ms Command                ?                  - Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+INFO  2023-03-09 10:31:26,430 24472ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 10:31:26,474 24516ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 10:31:26,479 24521ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 10:31:26,482 24525ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 10:31:26,484 24526ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 10:32:31,621 89663ms Command                ?                  - Executed DbCommand (77ms) [Parameters=[@__8__locals1_email_0='?' (Size = 4000), @__hash_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[Email] = @__8__locals1_email_0 AND [a].[Password] = @__hash_1
+INFO  2023-03-09 10:34:16,681 194723ms Command                ?                  - Executed DbCommand (27ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] IS NULL
+ERROR 2023-03-09 10:34:37,980 216022ms xceptionPageMiddleware ?                  - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EduSoft.WebApplication.Controllers.AuthController.GetAccount() in C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\Controllers\AuthController.cs:line 69
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2023-03-09 10:37:27,999   356ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 10:37:28,023   379ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 10:37:28,024   381ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 10:37:28,026   383ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 10:37:28,026   383ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 10:39:20,958   357ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 10:39:20,980   379ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 10:39:20,982   381ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 10:39:20,983   383ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 10:39:20,984   383ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 10:43:57,471   368ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 10:43:57,494   390ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 10:43:57,496   392ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 10:43:57,497   393ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 10:43:57,497   394ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 10:44:01,958   346ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 10:44:01,981   368ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 10:44:01,983   370ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 10:44:01,984   372ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 10:44:01,985   372ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 10:44:40,359 38747ms Command                ?                  - Executed DbCommand (50ms) [Parameters=[@__8__locals1_email_0='?' (Size = 4000), @__hash_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[Email] = @__8__locals1_email_0 AND [a].[Password] = @__hash_1
+INFO  2023-03-09 10:45:11,107 69494ms Command                ?                  - Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId]
+FROM [Chapters] AS [c]
+INFO  2023-03-09 10:45:36,485 94873ms Command                ?                  - Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] IS NULL
+ERROR 2023-03-09 10:45:36,502 94889ms xceptionPageMiddleware ?                  - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EduSoft.WebApplication.Controllers.AuthController.GetAccount() in C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\Controllers\AuthController.cs:line 71
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2023-03-09 10:45:54,540 112928ms Command                ?                  - Executed DbCommand (2ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+ERROR 2023-03-09 10:45:54,542 112930ms xceptionPageMiddleware ?                  - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EduSoft.WebApplication.Controllers.AuthController.GetAccount() in C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\Controllers\AuthController.cs:line 71
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2023-03-09 10:46:16,868   375ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 10:46:16,890   397ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 10:46:16,892   399ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 10:46:16,894   401ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 10:46:16,894   401ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 10:46:19,374  2881ms Command                ?                  - Executed DbCommand (49ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:46:27,383 10890ms Command                ?                  - Executed DbCommand (3ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:46:28,878 12385ms Command                ?                  - Executed DbCommand (2ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:46:30,057 13564ms Command                ?                  - Executed DbCommand (2ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:46:32,480 15987ms Command                ?                  - Executed DbCommand (2ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:46:33,227 16734ms Command                ?                  - Executed DbCommand (1ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:46:34,108 17615ms Command                ?                  - Executed DbCommand (0ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:46:34,813 18320ms Command                ?                  - Executed DbCommand (1ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:46:36,191 19698ms Command                ?                  - Executed DbCommand (0ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:46:36,826 20333ms Command                ?                  - Executed DbCommand (1ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:46:44,430 27937ms Command                ?                  - Executed DbCommand (0ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:46:45,197 28704ms Command                ?                  - Executed DbCommand (0ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:46:50,118 33625ms Command                ?                  - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId]
+FROM [Chapters] AS [c]
+INFO  2023-03-09 10:46:50,777 34284ms Command                ?                  - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId]
+FROM [Chapters] AS [c]
+INFO  2023-03-09 10:47:03,151 46658ms Command                ?                  - Executed DbCommand (1ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:47:04,028 47535ms Command                ?                  - Executed DbCommand (0ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:47:04,629 48136ms Command                ?                  - Executed DbCommand (1ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:47:05,166 48673ms Command                ?                  - Executed DbCommand (1ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:47:06,039 49546ms Command                ?                  - Executed DbCommand (2ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:47:12,697   391ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 10:47:12,721   415ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 10:47:12,723   417ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 10:47:12,725   419ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 10:47:12,725   419ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 10:47:20,155  7849ms Command                ?                  - Executed DbCommand (50ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:47:29,384   402ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 10:47:29,407   425ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 10:47:29,410   427ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 10:47:29,411   429ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 10:47:29,411   429ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 10:47:31,005  2023ms Command                ?                  - Executed DbCommand (33ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:48:10,556 41574ms Command                ?                  - Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId]
+FROM [Chapters] AS [c]
+INFO  2023-03-09 10:48:31,164 62182ms Command                ?                  - Executed DbCommand (2ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:48:32,221 63239ms Command                ?                  - Executed DbCommand (0ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[FirstName] = @__username_0
+INFO  2023-03-09 10:48:48,987 80005ms Command                ?                  - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId]
+FROM [Chapters] AS [c]
+INFO  2023-03-09 10:48:55,982 87000ms Command                ?                  - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId]
+FROM [Chapters] AS [c]

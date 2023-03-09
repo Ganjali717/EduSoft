@@ -2,7 +2,12 @@ using EduSoft.Data.DatabaseContext;
 using EduSoft.Data.Managers.Interfaces;
 using EduSoft.Data.Managers.Services;
 using EduSoft.Model.Automapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 #region Builder
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +23,25 @@ builder.Services.AddScoped<ISubChapterManager, SubChapterManager>();
 builder.Services.AddScoped<IAccountManager, AccountManager>();
 builder.Services.AddScoped<IJobManager, JobManager>();
 builder.Logging.AddLog4Net("log4net.config");
+builder.Services.AddAuthentication(opt =>
+{
+    opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(opt =>
+{
+    opt.RequireHttpsMetadata = false;
+    opt.SaveToken = true;
+    opt.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateIssuerSigningKey = true,
+        ValidateLifetime = true,
+        ValidIssuer = builder.Configuration["Jwt:Issuer"], 
+        ValidAudience = builder.Configuration["Jwt:Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"])),
+    };
+});
 #endregion
 
 
@@ -32,6 +56,7 @@ app.UseRequestLocalization();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
+app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();

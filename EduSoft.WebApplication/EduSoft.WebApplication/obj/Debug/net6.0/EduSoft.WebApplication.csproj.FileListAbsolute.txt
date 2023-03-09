@@ -200,3 +200,4 @@ C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebAppli
 C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\obj\Debug\net6.0\EduSoft.WebApplication.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

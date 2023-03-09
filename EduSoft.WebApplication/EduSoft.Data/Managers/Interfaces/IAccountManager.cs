@@ -10,4 +10,5 @@ public interface IAccountManager
     Task<ManagerResult> RemoveAccount(Guid id);
     Task<ManagerResult<AppUser>> GetAccountBySecurityToken(string token);
     Task<ManagerResult<AppUser>> Login(string email, string password);
+    Task<ManagerResult<AppUser>> GetAccountByName(string userName);
 }
