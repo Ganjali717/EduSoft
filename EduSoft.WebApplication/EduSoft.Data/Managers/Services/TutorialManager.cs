@@ -53,8 +53,15 @@ namespace EduSoft.Data.Managers.Services
             try
             {
                 var tutorial = await _context.Tutorials.FindAsync(id);
-                result.Data = tutorial;
-                result.Success = true;
+                if (tutorial != null)
+                {
+                    result.Data = tutorial;
+                    result.Success = true;
+                }
+                else
+                {
+                    result.Success = false;
+                }
             }
             catch (Exception ex)
             {

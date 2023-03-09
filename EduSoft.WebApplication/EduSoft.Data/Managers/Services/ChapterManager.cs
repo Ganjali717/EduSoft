@@ -41,10 +41,9 @@ public class ChapterManager:IChapterManager
         var result = new ManagerResult<Chapter>();
         try
         {
-            var chapterbyId = await _context.Chapters.FindAsync(id);
-            if (chapterbyId != null) { result.Data = chapterbyId;
-                result.Success = true; 
-            }
+            var chapter = await _context.Chapters.FindAsync(id);
+            if (chapter != null) { result.Data = chapter;  result.Success = true; }
+            else { result.Success = false; }
         }
         catch (Exception ex)
         {
