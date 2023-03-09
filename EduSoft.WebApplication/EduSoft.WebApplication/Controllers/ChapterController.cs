@@ -12,6 +12,7 @@ namespace EduSoft.WebApplication.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ChapterController : ControllerBase
     {
         private readonly IChapterManager _chapterManager;
@@ -23,7 +24,6 @@ namespace EduSoft.WebApplication.Controllers
         }
 
         [HttpGet("GetAllChapters")]
-        [Authorize]
         public async Task<IActionResult> GetAll()
         {
             var managerResult = await _chapterManager.GetAllChapters();

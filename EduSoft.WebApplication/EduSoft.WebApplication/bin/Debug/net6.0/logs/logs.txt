@@ -2113,3 +2113,33 @@ WHERE [a].[Email] = @__8__locals1_email_0 AND [a].[Password] = @__hash_1
 INFO  2023-03-09 11:20:47,840 131992ms Command                ?                  - Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
 SELECT [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId]
 FROM [Chapters] AS [c]
+INFO  2023-03-09 11:23:00,598   393ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 11:23:00,622   417ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 11:23:00,624   419ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 11:23:00,626   420ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 11:23:00,626   421ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 11:23:45,517 45312ms Command                ?                  - Executed DbCommand (49ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId]
+FROM [Chapters] AS [c]
+WHERE [c].[Id] = @__get_Item_0
+INFO  2023-03-09 11:23:58,516 58311ms Command                ?                  - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId]
+FROM [Chapters] AS [c]
+INFO  2023-03-09 11:24:02,630 62424ms Command                ?                  - Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId]
+FROM [Chapters] AS [c]
+WHERE [c].[Id] = @__get_Item_0
+INFO  2023-03-09 11:24:37,962   420ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 11:24:37,985   443ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 11:24:37,987   445ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 11:24:37,988   446ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 11:24:37,988   447ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 11:24:48,270   350ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 11:24:48,292   372ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 11:24:48,294   374ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 11:24:48,295   375ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 11:24:48,296   376ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 11:25:20,106 32186ms Command                ?                  - Executed DbCommand (50ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId]
+FROM [Chapters] AS [c]
+WHERE [c].[Id] = @__get_Item_0
