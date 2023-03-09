@@ -39,26 +39,7 @@ namespace EduSoft.WebApplication.Controllers
                 Response.StatusCode = (int)HttpStatusCode.BadRequest;
                 return Ok(managerResult.Message);
             }
-
-            var tokenHandler = new JwtSecurityTokenHandler();
-            var getKey = _configuration.GetSection("Jwt:Key").Value;
-            var key = Encoding.ASCII.GetBytes(getKey);
-            var tokenDescriptor = new SecurityTokenDescriptor
-            {
-                Subject = new ClaimsIdentity(new Claim[]
-                {
-                    new Claim(JwtRegisteredClaimNames.Aud, _configuration.GetSection("Jwt:Audience").Value),
-                    new Claim(JwtRegisteredClaimNames.Iss, _configuration.GetSection("Jwt:Issuer").Value),
-                    new Claim(ClaimTypes.Name, data.Username),
-                    new Claim(ClaimTypes.Country, "Azerbaijan"),
-                    new Claim(ClaimTypes.DateOfBirth, "17.10.1998"), 
-                    new Claim(ClaimTypes.Gender, "Male")
-                }),
-                Expires = DateTime.UtcNow.AddDays(7),
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
-            };
-            var token = tokenHandler.CreateToken(tokenDescriptor);
-            var tokenString = tokenHandler.WriteToken(token);
+            var tokenString = _accountManager.GenerateJwtToken(data);
             return Ok(new { Token = tokenString });
         }
 

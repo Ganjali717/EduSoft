@@ -1,11 +1,17 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
 using EduSoft.Data.DatabaseContext;
 using EduSoft.Data.Managers.Interfaces;
 using EduSoft.Entities;
 using EduSoft.Entities.Extentions;
 using EduSoft.Entities.Security;
+using EduSoft.Model.DTO.Account;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
 
 namespace EduSoft.Data.Managers.Services;
 
@@ -13,10 +19,12 @@ public class AccountManager:IAccountManager
 {
     private readonly AppDbContext _context;
     private readonly ILogger<AccountManager> _logger;
-    public AccountManager(AppDbContext context, ILogger<AccountManager> logger)
+    private readonly IConfiguration _configuration;
+    public AccountManager(AppDbContext context, ILogger<AccountManager> logger, IConfiguration configuration)
     {
         _context = context;
         _logger = logger;
+        _configuration = configuration;
     }
     public async Task<ManagerResult<List<AppUser>>> GetAllAccounts()
     {
@@ -118,7 +126,6 @@ public class AccountManager:IAccountManager
         }
         return result;
     }
-
     public async Task<ManagerResult<AppUser>> GetAccountByName(string username)
     {
         var result = new ManagerResult<AppUser>();
@@ -138,6 +145,31 @@ public class AccountManager:IAccountManager
         }
         return result;
     }
+   
+    public String GenerateJwtToken(LoginDto data)
+    {
+        var tokenHandler = new JwtSecurityTokenHandler();
+        var getKey = _configuration.GetSection("Jwt:Key").Value;
+        var key = Encoding.ASCII.GetBytes(getKey);
+        var tokenDescriptor = new SecurityTokenDescriptor
+        {
+            Subject = new ClaimsIdentity(new Claim[]
+            {
+                new Claim(JwtRegisteredClaimNames.Aud, _configuration.GetSection("Jwt:Audience").Value),
+                new Claim(JwtRegisteredClaimNames.Iss, _configuration.GetSection("Jwt:Issuer").Value),
+                new Claim(ClaimTypes.Name, data.Username),
+                new Claim(ClaimTypes.Country, "Azerbaijan"),
+                new Claim(ClaimTypes.DateOfBirth, "17.10.1998"),
+                new Claim(ClaimTypes.Gender, "Male")
+            }),
+            Expires = DateTime.UtcNow.AddDays(7),
+            SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+        };
+        var token = tokenHandler.CreateToken(tokenDescriptor);
+        var tokenString = tokenHandler.WriteToken(token);
+        return tokenString;
+    }
+
     private string? GetPasswordHash(string? email, string? password)
     {
         var salt = email.GetSHA256Hash();
