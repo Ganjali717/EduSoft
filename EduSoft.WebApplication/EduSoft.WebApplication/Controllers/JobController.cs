@@ -5,11 +5,13 @@ using AutoMapper;
 using EduSoft.Entities;
 using EduSoft.Entities.Jobs;
 using EduSoft.Model.DTO.Jobs;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EduSoft.WebApplication.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class JobController : ControllerBase
     {
         private readonly IJobManager _jobManager;

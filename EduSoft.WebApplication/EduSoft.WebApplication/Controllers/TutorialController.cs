@@ -11,11 +11,13 @@ using System.Xml.Linq;
 using EduSoft.Data.Managers.Services;
 using EduSoft.Entities.Jobs;
 using EduSoft.Model.DTO.Jobs;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EduSoft.WebApplication.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class TutorialController : ControllerBase
     {
         private readonly ITutorialManager _manager;
