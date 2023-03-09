@@ -2183,3 +2183,80 @@ INFO  2023-03-09 11:43:23,982   400ms Lifetime               ?                  
 INFO  2023-03-09 11:43:23,985   404ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
 INFO  2023-03-09 11:43:23,987   405ms Lifetime               ApplicationStarted - Hosting environment: Development
 INFO  2023-03-09 11:43:23,987   406ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 18:47:39,874   511ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 18:47:39,913   551ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 18:47:39,916   553ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 18:47:39,918   556ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 18:47:39,918   556ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 18:48:21,713   325ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 18:48:21,733   346ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 18:48:21,735   348ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 18:48:21,737   349ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 18:48:21,737   350ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 18:48:37,733   326ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 18:48:37,757   351ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 18:48:37,759   353ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 18:48:37,761   355ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 18:48:37,761   355ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 22:40:40,371   361ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 22:40:40,398   388ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 22:40:40,400   391ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 22:40:40,402   392ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 22:40:40,402   392ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 22:45:48,813   335ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 22:45:48,842   364ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 22:45:48,844   366ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 22:45:48,845   367ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 22:45:48,845   367ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 22:46:17,562   358ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 22:46:17,584   379ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 22:46:17,586   381ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 22:46:17,587   383ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 22:46:17,587   383ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 22:46:27,523   365ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 22:46:27,544   386ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 22:46:27,546   388ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 22:46:27,548   390ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 22:46:27,548   390ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 22:49:07,207   331ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 22:49:07,229   354ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 22:49:07,231   356ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 22:49:07,233   357ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 22:49:07,233   357ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 22:49:35,815   718ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 22:49:35,856   759ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 22:49:35,863   765ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 22:49:35,867   769ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 22:49:35,869   771ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 22:50:24,349   801ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 22:50:24,387   839ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 22:50:24,392   844ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 22:50:24,396   847ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 22:50:24,397   849ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 22:50:50,699 27151ms Command                ?                  - Executed DbCommand (107ms) [Parameters=[@__8__locals1_email_0='?' (Size = 4000), @__hash_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[Email] = @__8__locals1_email_0 AND [a].[Password] = @__hash_1
+INFO  2023-03-09 22:51:30,650  1001ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 22:51:30,701  1053ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 22:51:30,711  1062ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 22:51:30,716  1067ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 22:51:30,718  1069ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 22:51:57,355 27706ms Command                ?                  - Executed DbCommand (87ms) [Parameters=[@__8__locals1_email_0='?' (Size = 4000), @__hash_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[Email] = @__8__locals1_email_0 AND [a].[Password] = @__hash_1
+INFO  2023-03-09 22:52:35,460 65811ms Command                ?                  - Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId]
+FROM [Chapters] AS [c]
+INFO  2023-03-09 22:52:49,719   307ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 22:52:49,739   327ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 22:52:49,741   330ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 22:52:49,743   331ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 22:52:49,743   332ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 22:53:02,993 13581ms Command                ?                  - Executed DbCommand (39ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId]
+FROM [Chapters] AS [c]
+INFO  2023-03-09 22:56:07,761 198350ms Command                ?                  - Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [j].[Id], [j].[Company], [j].[Created], [j].[Description], [j].[Location], [j].[Salary], [j].[Title]
+FROM [Jobs] AS [j]

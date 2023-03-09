@@ -26,6 +26,7 @@ public class AccountManager:IAccountManager
         _logger = logger;
         _configuration = configuration;
     }
+    
     public async Task<ManagerResult<List<AppUser>>> GetAllAccounts()
     {
         var result = new ManagerResult<List<AppUser>>();

@@ -204,3 +204,7 @@ C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\
 C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\Google.Apis.dll
 C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\Google.Apis.Core.dll
 C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\Google.Apis.dll
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\Google.Apis.Core.dll
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\bin\Debug\net6.0\Newtonsoft.Json.dll

@@ -52,6 +52,7 @@
                     .then(r => r.json())
                     .then(json => {
                         this.post = json;
+                        console.log(this.post);
                         this.loading = false;
                         return;
                     });
