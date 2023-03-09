@@ -145,7 +145,6 @@ public class AccountManager:IAccountManager
         }
         return result;
     }
-   
     public String GenerateJwtToken(LoginDto data)
     {
         var tokenHandler = new JwtSecurityTokenHandler();
@@ -169,7 +168,6 @@ public class AccountManager:IAccountManager
         var tokenString = tokenHandler.WriteToken(token);
         return tokenString;
     }
-
     private string? GetPasswordHash(string? email, string? password)
     {
         var salt = email.GetSHA256Hash();

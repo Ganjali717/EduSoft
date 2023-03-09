@@ -2071,3 +2071,45 @@ FROM [Chapters] AS [c]
 INFO  2023-03-09 10:48:55,982 87000ms Command                ?                  - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
 SELECT [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId]
 FROM [Chapters] AS [c]
+INFO  2023-03-09 11:07:56,056   377ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 11:07:56,080   401ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 11:07:56,082   403ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 11:07:56,084   404ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 11:07:56,084   405ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 11:08:46,636   389ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 11:08:46,660   414ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 11:08:46,663   416ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 11:08:46,665   418ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 11:08:46,665   418ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 11:09:06,359 20112ms Command                ?                  - Executed DbCommand (54ms) [Parameters=[@__8__locals1_email_0='?' (Size = 4000), @__hash_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[Email] = @__8__locals1_email_0 AND [a].[Password] = @__hash_1
+INFO  2023-03-09 11:09:42,703 56456ms Command                ?                  - Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId]
+FROM [Chapters] AS [c]
+INFO  2023-03-09 11:13:53,672   365ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 11:13:53,695   388ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 11:13:53,697   390ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 11:13:53,698   391ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 11:13:53,699   391ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 11:15:07,088   362ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 11:15:07,111   385ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 11:15:07,113   387ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 11:15:07,115   389ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 11:15:07,115   389ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 11:15:33,256 26530ms Command                ?                  - Executed DbCommand (37ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId]
+FROM [Chapters] AS [c]
+INFO  2023-03-09 11:18:36,201   352ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-09 11:18:36,222   374ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-09 11:18:36,224   376ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-09 11:18:36,225   377ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-09 11:18:36,226   377ms Lifetime               ApplicationStarted - Content root path: C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-09 11:19:07,785 31937ms Command                ?                  - Executed DbCommand (61ms) [Parameters=[@__8__locals1_email_0='?' (Size = 4000), @__hash_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Created], [a].[Email], [a].[FirstName], [a].[LastName], [a].[Password], [a].[Role], [a].[SecurityToken], [a].[SecurityTokenExpired], [a].[Status], [a].[Updated]
+FROM [AppUsers] AS [a]
+WHERE [a].[Email] = @__8__locals1_email_0 AND [a].[Password] = @__hash_1
+INFO  2023-03-09 11:20:47,840 131992ms Command                ?                  - Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId]
+FROM [Chapters] AS [c]

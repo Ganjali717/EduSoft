@@ -43,7 +43,6 @@ namespace EduSoft.WebApplication.Controllers
             return Ok(new { Token = tokenString });
         }
 
-        
         [HttpGet("GetAccount")]
         [Authorize]
         public async Task<IActionResult> GetAccount()
