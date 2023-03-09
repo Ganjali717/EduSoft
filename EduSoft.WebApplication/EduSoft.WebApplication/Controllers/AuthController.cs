@@ -48,7 +48,6 @@ namespace EduSoft.WebApplication.Controllers
         public async Task<IActionResult> GetAccount()
         {
             var user = await _accountManager.GetAccountByName("Ganjali");
-
             return Ok(new {user.Data.Id, user.Data.FirstName, user.Data.LastName});
         }
     }
