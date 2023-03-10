@@ -30,7 +30,7 @@ namespace EduSoft.WebApplication.Controllers
                 Response.StatusCode = (int)HttpStatusCode.BadRequest;
                 return Ok(managerResult.Message);
             }
-            var mappedResult = _mapper.Map<ManagerResult<List<SubChapterDto>>>(managerResult);
+            var mappedResult = _mapper.Map<ManagerResult<List<SubChapterIntroDto>>>(managerResult);
             return Ok(mappedResult.Data);
         }
         [HttpGet("GetSubChapterIntro/{id}")]
@@ -42,15 +42,15 @@ namespace EduSoft.WebApplication.Controllers
                 Response.StatusCode = (int)HttpStatusCode.BadRequest;
                 return Ok(managerResult.Message);
             }
-            var mappedResult = _mapper.Map<ManagerResult<SubChapterDto>>(managerResult);
+            var mappedResult = _mapper.Map<ManagerResult<SubChapterIntroDto>>(managerResult);
             return Ok(mappedResult.Data);
         }
         [HttpPost("CreateOrUpdate")]
         public async Task<IActionResult> CreateOrUpdate(SubChapterDto model)
         {
-            var mapped = _mapper.Map<Subchapter>(model);
+            var mapped = _mapper.Map<SubChapterIntro>(model);
             var managerResult = await _manager.CreateOrUpdateSubChapterIntro(mapped);
-            if (managerResult.Success) return Ok(_mapper.Map<ManagerResult<SubChapterDto>>(managerResult));
+            if (managerResult.Success) return Ok(_mapper.Map<ManagerResult<SubChapterIntroDto>>(managerResult));
             Response.StatusCode = (int)HttpStatusCode.BadRequest;
             return Ok(managerResult.Message);
         }
