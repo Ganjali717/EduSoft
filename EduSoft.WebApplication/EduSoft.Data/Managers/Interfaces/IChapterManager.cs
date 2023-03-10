@@ -5,8 +5,8 @@ namespace EduSoft.Data.Managers.Interfaces;
 
 public interface IChapterManager
 {
-    Task<ManagerResult<List<Chapter>>> GetAllChapters();
-    Task<ManagerResult<Chapter>> GetChapter(Guid id);
-    Task<ManagerResult<Chapter>> CreateOrUpdateChapter(Chapter chapter);
-    Task<ManagerResult> DeleteChapter(Guid id);
+    Task<ManagerResult<List<Chapter>>> GetAll();
+    Task<ManagerResult<Chapter>> Get(Guid id);
+    Task<ManagerResult<Chapter>> CreateOrUpdate(Chapter chapter);
+    Task<ManagerResult> Remove(Guid id);
 }

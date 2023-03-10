@@ -23,10 +23,10 @@ namespace EduSoft.WebApplication.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet("GetAllSubChapters")]
+        [HttpGet("GetAll")]
         public async Task<IActionResult> GetAll()
         {
-            var managerResult = await _manager.GetAllSubChapterAsync();
+            var managerResult = await _manager.GetAll();
             if (!managerResult.Success)
             {
                 Response.StatusCode = (int)HttpStatusCode.BadRequest;
@@ -35,10 +35,10 @@ namespace EduSoft.WebApplication.Controllers
             var mappedResult = _mapper.Map<ManagerResult<List<SubChapterDto>>>(managerResult);
             return Ok(mappedResult.Data);
         }
-        [HttpGet("GetSubChapter/{id}")]
-        public async Task<IActionResult> GetById(Guid id)
+        [HttpGet("Get/{id}")]
+        public async Task<IActionResult> Get([FromRoute] Guid id)
         {
-            var managerResult = await _manager.GetSubChapterbyIdAsync(id);
+            var managerResult = await _manager.Get(id);
             if (!managerResult.Success)
             {
                 Response.StatusCode = (int)HttpStatusCode.BadRequest;
@@ -48,18 +48,18 @@ namespace EduSoft.WebApplication.Controllers
             return Ok(mappedResult.Data);
         }
         [HttpPost("CreateOrUpdate")]
-        public async Task<IActionResult> CreateOrUpdate(SubChapterDto model)
+        public async Task<IActionResult> CreateOrUpdate([FromBody]SubChapterDto model)
         {
             var mapped =  _mapper.Map<Subchapter>(model);
-            var managerResult = await _manager.CreateOrUpdateSubChapter(mapped);
+            var managerResult = await _manager.CreateOrUpdate(mapped);
             if (managerResult.Success) return Ok(_mapper.Map<ManagerResult<SubChapterDto>>(managerResult));
             Response.StatusCode = (int)HttpStatusCode.BadRequest;
             return Ok(managerResult.Message);
         }
         [HttpDelete("Remove/{id}")]
-        public async Task<IActionResult> Remove(Guid id)
+        public async Task<IActionResult> Remove([FromRoute] Guid id)
         {
-            var managerResult = await _manager.DeleteSubChapterAsync(id);
+            var managerResult = await _manager.Remove(id);
             if (!managerResult.Success)
             {
                 Response.StatusCode = (int)HttpStatusCode.NotFound;

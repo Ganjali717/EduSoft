@@ -19,7 +19,7 @@ public class JobManager : IJobManager
         _logger = logger;
     }
 
-    public async Task<ManagerResult<List<Job>>> GetAllJobs()
+    public async Task<ManagerResult<List<Job>>> GetAll()
     {
         var result = new ManagerResult<List<Job>>();
         try
@@ -43,7 +43,7 @@ public class JobManager : IJobManager
 
         return result;
     }
-    public async Task<ManagerResult<Job>> GetJobById(Guid id)
+    public async Task<ManagerResult<Job>> Get(Guid id)
     {
         var result = new ManagerResult<Job>();
         try
@@ -67,7 +67,7 @@ public class JobManager : IJobManager
 
         return result;
     }
-    public async Task<ManagerResult<Job>> CreateOrUpdateJob(Job job)
+    public async Task<ManagerResult<Job>> CreateOrUpdate(Job job)
     {
         var result = new ManagerResult<Job>();
         try
@@ -98,7 +98,7 @@ public class JobManager : IJobManager
 
         return result;
     }
-    public async Task<ManagerResult> RemoveJob(Guid id)
+    public async Task<ManagerResult> Remove(Guid id)
     {
         var result = new ManagerResult();
         try

@@ -28,10 +28,10 @@ namespace EduSoft.WebApplication.Controllers
             _mapper = mapper;
         }
         
-        [HttpGet("GetAllTutorials")]
-        public async Task<IActionResult> GetAllTutorials()
+        [HttpGet("GetAll")]
+        public async Task<IActionResult> GetAll()
         {
-            var managerResult = await _manager.GetAllTutorials();
+            var managerResult = await _manager.GetAll();
             if (!managerResult.Success)
             {
                 Response.StatusCode = (int)HttpStatusCode.BadRequest;
@@ -41,10 +41,10 @@ namespace EduSoft.WebApplication.Controllers
             return Ok(mappedResult.Data);
         }
 
-        [HttpGet("GetTutorial/{id}")]
-        public async Task<IActionResult> GetTutorialById(Guid id)
+        [HttpGet("Get/{id}")]
+        public async Task<IActionResult> Get([FromRoute] Guid id)
         {
-            var managerResult = await _manager.GetTutorial(id);
+            var managerResult = await _manager.Get(id);
             if (!managerResult.Success)
             {
                 Response.StatusCode = (int)HttpStatusCode.BadRequest;
@@ -54,20 +54,20 @@ namespace EduSoft.WebApplication.Controllers
             return Ok(mappedResult.Data);
         }
 
-        [HttpPost("CreateOrUpdateTutorial")]
-        public async Task<IActionResult> CreateOrUpdateTutorial(TutorialDto model)
+        [HttpPost("CreateOrUpdate")]
+        public async Task<IActionResult> CreateOrUpdate([FromBody]TutorialDto model)
         {
             var jobs = _mapper.Map<Tutorial>(model);
-            var managerResult = await _manager.CreateOrUpdateTutorial(jobs);
+            var managerResult = await _manager.CreateOrUpdate(jobs);
             if (managerResult.Success) return Ok(_mapper.Map<ManagerResult<JobDTO>>(managerResult));
             Response.StatusCode = (int)HttpStatusCode.BadRequest;
             return Ok(managerResult.Message);
         }
 
-        [HttpDelete("RemoveTutorial/{id}")]
-        public async Task<IActionResult> RemoveTutorial(Guid id)
+        [HttpDelete("Remove/{id}")]
+        public async Task<IActionResult> Remove([FromRoute] Guid id)
         {
-            var managerResult = await _manager.DeleteTutorial(id);
+            var managerResult = await _manager.Remove(id);
             if (!managerResult.Success)
             {
                 Response.StatusCode = (int)HttpStatusCode.NotFound;

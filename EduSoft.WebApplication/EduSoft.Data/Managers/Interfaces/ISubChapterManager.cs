@@ -5,8 +5,8 @@ namespace EduSoft.Data.Managers.Interfaces;
 
 public interface ISubChapterManager
 {
-    Task<ManagerResult<List<Subchapter>>> GetAllSubChapterAsync();
-    Task<ManagerResult<Subchapter>> GetSubChapterbyIdAsync(Guid id);
-    Task<ManagerResult<Subchapter>> CreateOrUpdateSubChapter(Subchapter subchapter);
-    Task<ManagerResult> DeleteSubChapterAsync(Guid id);
+    Task<ManagerResult<List<Subchapter>>> GetAll();
+    Task<ManagerResult<Subchapter>> Get(Guid id);
+    Task<ManagerResult<Subchapter>> CreateOrUpdate(Subchapter subchapter);
+    Task<ManagerResult> Remove(Guid id);
 }

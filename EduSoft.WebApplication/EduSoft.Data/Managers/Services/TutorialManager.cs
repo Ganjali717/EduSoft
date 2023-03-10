@@ -23,7 +23,7 @@ namespace EduSoft.Data.Managers.Services
             _logger = logger;
         }
 
-        public async Task<ManagerResult<List<Tutorial>>> GetAllTutorials()
+        public async Task<ManagerResult<List<Tutorial>>> GetAll()
         {
             var result = new ManagerResult<List<Tutorial>>();
             try
@@ -47,7 +47,7 @@ namespace EduSoft.Data.Managers.Services
 
             return result;
         }
-        public async Task<ManagerResult<Tutorial>> GetTutorial(Guid id)
+        public async Task<ManagerResult<Tutorial>> Get(Guid id)
         {
             var result = new ManagerResult<Tutorial>();
             try
@@ -70,7 +70,7 @@ namespace EduSoft.Data.Managers.Services
             }
             return result;
         }
-        public async Task<ManagerResult<Tutorial>> CreateOrUpdateTutorial(Tutorial tutorial)
+        public async Task<ManagerResult<Tutorial>> CreateOrUpdate(Tutorial tutorial)
         {
             var result = new ManagerResult<Tutorial>();
             try
@@ -101,7 +101,7 @@ namespace EduSoft.Data.Managers.Services
             }
             return result;
         }
-        public async Task<ManagerResult> DeleteTutorial(Guid id)
+        public async Task<ManagerResult> Remove(Guid id)
         {
             var result = new ManagerResult();
             try

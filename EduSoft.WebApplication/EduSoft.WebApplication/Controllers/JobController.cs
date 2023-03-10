@@ -23,10 +23,10 @@ namespace EduSoft.WebApplication.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet("GetAllVacancies")]
-        public async Task<IActionResult> GetAllVacancies()
+        [HttpGet("GetAll")]
+        public async Task<IActionResult> GetAll()
         {
-            var managerResult = await _jobManager.GetAllJobs();
+            var managerResult = await _jobManager.GetAll();
             if (!managerResult.Success)
             {
                 Response.StatusCode = (int)HttpStatusCode.BadRequest;
@@ -36,10 +36,10 @@ namespace EduSoft.WebApplication.Controllers
             return Ok(mappedResult);
         }
 
-        [HttpGet("GetVacancy/{id}")]
-        public async Task<IActionResult> GetJobById(Guid id)
+        [HttpGet("Get/{id}")]
+        public async Task<IActionResult> Get([FromRoute] Guid id)
         {
-            var managerResult = await _jobManager.GetJobById(id);
+            var managerResult = await _jobManager.Get(id);
             if (!managerResult.Success)
             {
                 Response.StatusCode = (int)HttpStatusCode.NotFound;
@@ -49,21 +49,21 @@ namespace EduSoft.WebApplication.Controllers
             return Ok(mapperResult.Data);
         }
 
-        [HttpPost("addVacancy")]
+        [HttpPost("CreateOrUpdate")]
         [DisableRequestSizeLimit]
-        public async Task<IActionResult> CreateOrUpdateVacancy(JobDTO model)
+        public async Task<IActionResult> CreateOrUpdate([FromBody]JobDTO model)
         {
             var jobs = _mapper.Map<Job>(model);
-            var managerResult = await _jobManager.CreateOrUpdateJob(jobs);
+            var managerResult = await _jobManager.CreateOrUpdate(jobs);
             if (managerResult.Success) return Ok(_mapper.Map<ManagerResult<JobDTO>>(managerResult));
             Response.StatusCode = (int)HttpStatusCode.BadRequest;
             return Ok(managerResult.Message);
         }
 
-        [HttpDelete("RemoveVacancy/{id}")]
-        public async Task<IActionResult> DeleteJob(Guid id)
+        [HttpDelete("Remove/{id}")]
+        public async Task<IActionResult> Remove([FromRoute]Guid id)
         { 
-            var managerResult = await _jobManager.RemoveJob(id);
+            var managerResult = await _jobManager.Remove(id);
             if (!managerResult.Success)
             {
                 Response.StatusCode = (int)HttpStatusCode.NotFound;

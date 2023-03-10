@@ -18,7 +18,7 @@ public class ChapterManager:IChapterManager
         _logger = logger;
     }
 
-    public async Task<ManagerResult<List<Chapter>>> GetAllChapters()
+    public async Task<ManagerResult<List<Chapter>>> GetAll()
     {
         var result = new ManagerResult<List<Chapter>>();
         try
@@ -36,7 +36,7 @@ public class ChapterManager:IChapterManager
         return result;
     }
 
-    public async Task<ManagerResult<Chapter>> GetChapter(Guid id)
+    public async Task<ManagerResult<Chapter>> Get(Guid id)
     {
         var result = new ManagerResult<Chapter>();
         try
@@ -53,7 +53,7 @@ public class ChapterManager:IChapterManager
         return result;
     }
 
-    public async Task<ManagerResult<Chapter>> CreateOrUpdateChapter(Chapter chapter)
+    public async Task<ManagerResult<Chapter>> CreateOrUpdate(Chapter chapter)
     {
         var result = new ManagerResult<Chapter>();
         try
@@ -84,7 +84,7 @@ public class ChapterManager:IChapterManager
         return result;
     }
 
-    public async Task<ManagerResult> DeleteChapter(Guid id)
+    public async Task<ManagerResult> Remove(Guid id)
     {
         var result = new ManagerResult();
         try

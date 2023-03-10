@@ -23,7 +23,7 @@ namespace EduSoft.Data.Managers.Services
             _logger = logger;
         }
 
-        public async Task<ManagerResult<SubChapterIntro>> CreateOrUpdateSubChapterIntro(SubChapterIntro subchapter)
+        public async Task<ManagerResult<SubChapterIntro>> CreateOrUpdate(SubChapterIntro subchapter)
         {
             var manager = new ManagerResult<SubChapterIntro>();
             try
@@ -52,7 +52,7 @@ namespace EduSoft.Data.Managers.Services
             }
             return manager;
         }
-        public async Task<ManagerResult> DeleteSubChapterIntroAsync(Guid id)
+        public async Task<ManagerResult> Remove(Guid id)
         {
             var manager = new ManagerResult();
             try
@@ -69,7 +69,7 @@ namespace EduSoft.Data.Managers.Services
             }
             return manager;
         }
-        public async Task<ManagerResult<List<SubChapterIntro>>> GetAllSubChapterIntrorAsync()
+        public async Task<ManagerResult<List<SubChapterIntro>>> GetAll()
         {
             var manager = new ManagerResult<List<SubChapterIntro>>();
             try
@@ -92,7 +92,7 @@ namespace EduSoft.Data.Managers.Services
             }
             return manager;
         }
-        public async Task<ManagerResult<SubChapterIntro>> GetSubChapterIntrobyIdAsync(Guid id)
+        public async Task<ManagerResult<SubChapterIntro>> Get(Guid id)
         {
             var manager = new ManagerResult<SubChapterIntro>();
             try

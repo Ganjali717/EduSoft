@@ -17,7 +17,7 @@ public class SubChapterManager:ISubChapterManager
         _logger = logger;
     }
 
-    public async Task<ManagerResult<List<Subchapter>>> GetAllSubChapterAsync()
+    public async Task<ManagerResult<List<Subchapter>>> GetAll()
     {
         var result = new ManagerResult<List<Subchapter>>();
         try
@@ -42,7 +42,7 @@ public class SubChapterManager:ISubChapterManager
 
         return result;
     }
-    public async Task<ManagerResult<Subchapter>> GetSubChapterbyIdAsync(Guid id)
+    public async Task<ManagerResult<Subchapter>> Get(Guid id)
     {
         var result = new ManagerResult<Subchapter>();
         try
@@ -67,7 +67,7 @@ public class SubChapterManager:ISubChapterManager
 
         return result;
     }
-    public async Task<ManagerResult<Subchapter>> CreateOrUpdateSubChapter(Subchapter subchapter)
+    public async Task<ManagerResult<Subchapter>> CreateOrUpdate(Subchapter subchapter)
     {
         var result = new ManagerResult<Subchapter>();
         try
@@ -99,7 +99,7 @@ public class SubChapterManager:ISubChapterManager
         }
         return result;
     }
-    public async Task<ManagerResult> DeleteSubChapterAsync(Guid id)
+    public async Task<ManagerResult> Remove(Guid id)
     {
         var result = new ManagerResult();
         try

@@ -5,8 +5,8 @@ namespace EduSoft.Data.Managers.Interfaces;
 
 public interface IJobManager
 {
-    Task<ManagerResult<List<Job>>> GetAllJobs();
-    Task<ManagerResult<Job>> GetJobById(Guid id);
-    Task<ManagerResult<Job>> CreateOrUpdateJob(Job job);
-    Task<ManagerResult> RemoveJob(Guid id);
+    Task<ManagerResult<List<Job>>> GetAll();
+    Task<ManagerResult<Job>> Get(Guid id);
+    Task<ManagerResult<Job>> CreateOrUpdate(Job job);
+    Task<ManagerResult> Remove(Guid id);
 }

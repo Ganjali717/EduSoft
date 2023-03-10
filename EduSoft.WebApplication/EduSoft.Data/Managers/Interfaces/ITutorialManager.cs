@@ -5,9 +5,9 @@ namespace EduSoft.Data.Managers.Interfaces;
 
 public interface ITutorialManager
 {
-    Task<ManagerResult<List<Tutorial>>> GetAllTutorials();
-    Task<ManagerResult<Tutorial>> GetTutorial(Guid id);
-    Task<ManagerResult<Tutorial>> CreateOrUpdateTutorial(Tutorial tutorial);
-    Task<ManagerResult> DeleteTutorial(Guid id);
+    Task<ManagerResult<List<Tutorial>>> GetAll();
+    Task<ManagerResult<Tutorial>> Get(Guid id);
+    Task<ManagerResult<Tutorial>> CreateOrUpdate(Tutorial tutorial);
+    Task<ManagerResult> Remove(Guid id);
 
 }
