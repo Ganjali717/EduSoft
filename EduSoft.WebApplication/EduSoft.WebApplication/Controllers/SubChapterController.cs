@@ -32,7 +32,7 @@ namespace EduSoft.WebApplication.Controllers
                 Response.StatusCode = (int)HttpStatusCode.BadRequest;
                 return Ok(managerResult.Message);
             }
-            var mappedResult = _mapper.Map<ManagerResult<List<SubChapterDto>>>(managerResult);
+            var mappedResult = _mapper.Map<ManagerResult<List<Subchapter>>>(managerResult);
             return Ok(mappedResult.Data);
         }
         [HttpGet("Get/{id}")]

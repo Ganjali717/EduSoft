@@ -18,8 +18,8 @@ namespace EduSoft.Model.Automapper
         public BaseAutoMapper()
         {
             #region TutorialDTO
-            CreateMap<TutorialDto, Tutorial>();
             CreateMap<Tutorial, TutorialDto>();
+            CreateMap<TutorialDto, Tutorial>();
             #endregion
 
             #region AccountDTO
@@ -28,8 +28,8 @@ namespace EduSoft.Model.Automapper
             #endregion
 
             #region JobsDTO
-            CreateMap<JobDTO, Job>();
             CreateMap<Job, JobDTO>();
+            CreateMap<JobDTO, Job>();
             #endregion
 
             #region ChapterDTO

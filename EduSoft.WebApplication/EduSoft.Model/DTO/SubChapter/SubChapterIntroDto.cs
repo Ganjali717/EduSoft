@@ -23,6 +23,5 @@ namespace EduSoft.Model.DTO.SubChapter
         }
         public string SubChapterId { get; set; }
         public string Created { get; set; }
-        public ICollection<IntroImages> Images { get; set; }
     }
 }

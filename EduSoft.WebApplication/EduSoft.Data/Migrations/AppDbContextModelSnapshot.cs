@@ -361,7 +361,7 @@ namespace EduSoft.Data.Migrations
             modelBuilder.Entity("EduSoft.Entities.Tutorials.Chapter", b =>
                 {
                     b.HasOne("EduSoft.Entities.Tutorials.Tutorial", "Tutorial")
-                        .WithMany("Chapters")
+                        .WithMany()
                         .HasForeignKey("TutorialId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -383,7 +383,7 @@ namespace EduSoft.Data.Migrations
             modelBuilder.Entity("EduSoft.Entities.Tutorials.SubChapterIntro", b =>
                 {
                     b.HasOne("EduSoft.Entities.Tutorials.Subchapter", "SubChapter")
-                        .WithMany("SubchapterIntro")
+                        .WithMany()
                         .HasForeignKey("SubChapterId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -394,7 +394,7 @@ namespace EduSoft.Data.Migrations
             modelBuilder.Entity("EduSoft.Entities.Tutorials.Subchapter", b =>
                 {
                     b.HasOne("EduSoft.Entities.Tutorials.Chapter", "Chapter")
-                        .WithMany("Subchapters")
+                        .WithMany()
                         .HasForeignKey("ChapterId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -411,24 +411,9 @@ namespace EduSoft.Data.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("EduSoft.Entities.Tutorials.Chapter", b =>
-                {
-                    b.Navigation("Subchapters");
-                });
-
             modelBuilder.Entity("EduSoft.Entities.Tutorials.SubChapterIntro", b =>
                 {
                     b.Navigation("Images");
-                });
-
-            modelBuilder.Entity("EduSoft.Entities.Tutorials.Subchapter", b =>
-                {
-                    b.Navigation("SubchapterIntro");
-                });
-
-            modelBuilder.Entity("EduSoft.Entities.Tutorials.Tutorial", b =>
-                {
-                    b.Navigation("Chapters");
                 });
 #pragma warning restore 612, 618
         }

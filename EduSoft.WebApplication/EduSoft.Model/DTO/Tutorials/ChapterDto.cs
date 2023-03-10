@@ -22,6 +22,5 @@ namespace EduSoft.Model.DTO.Tutorials
         }
         public string TutorialId { get; set; }
         public DateTime Created { get; set; }
-        public ICollection<Subchapter> Subchapters { get; set; }
     }
 }

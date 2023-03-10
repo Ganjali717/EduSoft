@@ -11,7 +11,6 @@ namespace EduSoft.WebApplication.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class JobController : ControllerBase
     {
         private readonly IJobManager _jobManager;
@@ -50,7 +49,6 @@ namespace EduSoft.WebApplication.Controllers
         }
 
         [HttpPost("CreateOrUpdate")]
-        [DisableRequestSizeLimit]
         public async Task<IActionResult> CreateOrUpdate([FromBody]JobDTO model)
         {
             var jobs = _mapper.Map<Job>(model);

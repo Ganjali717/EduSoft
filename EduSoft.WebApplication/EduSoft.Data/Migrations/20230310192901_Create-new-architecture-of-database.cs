@@ -6,13 +6,19 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace EduSoft.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class AddsomechangesdbaddImageIntroandSubChapterIntro : Migration
+    public partial class Createnewarchitectureofdatabase : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.AddColumn<int>(
+                name: "Salary",
+                table: "Jobs",
+                type: "int",
+                nullable: true);
+
             migrationBuilder.CreateTable(
-                name: "SubChapterIntro",
+                name: "SubchIntros",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
@@ -23,9 +29,9 @@ namespace EduSoft.Data.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_SubChapterIntro", x => x.Id);
+                    table.PrimaryKey("PK_SubchIntros", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_SubChapterIntro_Subchapters_SubChapterId",
+                        name: "FK_SubchIntros_Subchapters_SubChapterId",
                         column: x => x.SubChapterId,
                         principalTable: "Subchapters",
                         principalColumn: "Id",
@@ -44,9 +50,9 @@ namespace EduSoft.Data.Migrations
                 {
                     table.PrimaryKey("PK_IntroImages", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_IntroImages_SubChapterIntro_SubChapterIntroId",
+                        name: "FK_IntroImages_SubchIntros_SubChapterIntroId",
                         column: x => x.SubChapterIntroId,
-                        principalTable: "SubChapterIntro",
+                        principalTable: "SubchIntros",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -57,8 +63,8 @@ namespace EduSoft.Data.Migrations
                 column: "SubChapterIntroId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_SubChapterIntro_SubChapterId",
-                table: "SubChapterIntro",
+                name: "IX_SubchIntros_SubChapterId",
+                table: "SubchIntros",
                 column: "SubChapterId");
         }
 
@@ -69,7 +75,11 @@ namespace EduSoft.Data.Migrations
                 name: "IntroImages");
 
             migrationBuilder.DropTable(
-                name: "SubChapterIntro");
+                name: "SubchIntros");
+
+            migrationBuilder.DropColumn(
+                name: "Salary",
+                table: "Jobs");
         }
     }
 }

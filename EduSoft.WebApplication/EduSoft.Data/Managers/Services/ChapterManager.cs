@@ -23,7 +23,7 @@ public class ChapterManager:IChapterManager
         var result = new ManagerResult<List<Chapter>>();
         try
         {
-            var context = await _context.Chapters.ToListAsync();
+            var context = await _context.Chapters.Include(x=> x.Tutorial.Category).ToListAsync();
             result.Data = context;
             result.Success = true;
         }
@@ -66,7 +66,6 @@ public class ChapterManager:IChapterManager
             else
             {
                 var oldChapter = await _context.Chapters.FindAsync(chapter.Id);
-                oldChapter.Subchapters = chapter.Subchapters;
                 oldChapter.Title = chapter.Title; 
                 oldChapter.Tutorial = chapter.Tutorial;
                 oldChapter.TutorialId = chapter.TutorialId;

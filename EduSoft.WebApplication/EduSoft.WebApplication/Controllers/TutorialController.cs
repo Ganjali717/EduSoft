@@ -17,7 +17,6 @@ namespace EduSoft.WebApplication.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class TutorialController : ControllerBase
     {
         private readonly ITutorialManager _manager;

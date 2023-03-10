@@ -88,7 +88,6 @@ namespace EduSoft.Data.Managers.Services
                     oldTutorial.CategoryId = tutorial.CategoryId;
                     oldTutorial.Category = tutorial.Category;
                     oldTutorial.Created = DateTime.Now;
-                    oldTutorial.Chapters = tutorial.Chapters;
                     await _context.SaveChangesAsync();
                     result.Data = oldTutorial;
                 }

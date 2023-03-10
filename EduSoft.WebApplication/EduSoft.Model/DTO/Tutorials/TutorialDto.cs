@@ -18,5 +18,4 @@ public class TutorialDto
     }
     public string CategoryId { get; set; }
     public string Created { get; set; }
-    public ICollection<Chapter> Chapters { get; set; }
 }

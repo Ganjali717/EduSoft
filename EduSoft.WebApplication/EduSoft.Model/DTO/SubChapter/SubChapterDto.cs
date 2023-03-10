@@ -22,6 +22,5 @@ namespace EduSoft.Model.DTO.SubChapter
         }
         public string ChapterId { get; set; }
         public string Created { get; set; }
-        public ICollection<SubChapterIntro> SubchapterIntro { get; set; }
     }
 }

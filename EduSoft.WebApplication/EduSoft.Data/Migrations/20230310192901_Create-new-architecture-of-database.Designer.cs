@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EduSoft.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230310160408_CreateSubChapterIntro")]
-    partial class CreateSubChapterIntro
+    [Migration("20230310192901_Create-new-architecture-of-database")]
+    partial class Createnewarchitectureofdatabase
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -364,7 +364,7 @@ namespace EduSoft.Data.Migrations
             modelBuilder.Entity("EduSoft.Entities.Tutorials.Chapter", b =>
                 {
                     b.HasOne("EduSoft.Entities.Tutorials.Tutorial", "Tutorial")
-                        .WithMany("Chapters")
+                        .WithMany()
                         .HasForeignKey("TutorialId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -386,7 +386,7 @@ namespace EduSoft.Data.Migrations
             modelBuilder.Entity("EduSoft.Entities.Tutorials.SubChapterIntro", b =>
                 {
                     b.HasOne("EduSoft.Entities.Tutorials.Subchapter", "SubChapter")
-                        .WithMany("SubchapterIntro")
+                        .WithMany()
                         .HasForeignKey("SubChapterId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -397,7 +397,7 @@ namespace EduSoft.Data.Migrations
             modelBuilder.Entity("EduSoft.Entities.Tutorials.Subchapter", b =>
                 {
                     b.HasOne("EduSoft.Entities.Tutorials.Chapter", "Chapter")
-                        .WithMany("Subchapters")
+                        .WithMany()
                         .HasForeignKey("ChapterId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -414,24 +414,9 @@ namespace EduSoft.Data.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("EduSoft.Entities.Tutorials.Chapter", b =>
-                {
-                    b.Navigation("Subchapters");
-                });
-
             modelBuilder.Entity("EduSoft.Entities.Tutorials.SubChapterIntro", b =>
                 {
                     b.Navigation("Images");
-                });
-
-            modelBuilder.Entity("EduSoft.Entities.Tutorials.Subchapter", b =>
-                {
-                    b.Navigation("SubchapterIntro");
-                });
-
-            modelBuilder.Entity("EduSoft.Entities.Tutorials.Tutorial", b =>
-                {
-                    b.Navigation("Chapters");
                 });
 #pragma warning restore 612, 618
         }

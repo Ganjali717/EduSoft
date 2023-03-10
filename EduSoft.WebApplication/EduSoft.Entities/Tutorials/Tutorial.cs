@@ -19,6 +19,5 @@ namespace EduSoft.Entities.Tutorials
         [ForeignKey("Category")]
         public Guid? CategoryId { get; set; }
         public DateTime Created { get; set; }
-        public ICollection<Chapter> Chapters { get; set; }
     }
 }

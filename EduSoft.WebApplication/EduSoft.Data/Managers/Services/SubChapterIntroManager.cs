@@ -74,7 +74,7 @@ namespace EduSoft.Data.Managers.Services
             var manager = new ManagerResult<List<SubChapterIntro>>();
             try
             {
-                var chapter = await _context.SubchIntros.ToListAsync();
+                var chapter = await _context.SubchIntros.Include(x => x.SubChapter.Chapter.Tutorial.Category).ToListAsync();
                 if (chapter != null)
                 {
                     manager.Data = chapter;

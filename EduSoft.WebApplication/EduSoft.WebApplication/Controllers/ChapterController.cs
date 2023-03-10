@@ -12,7 +12,6 @@ namespace EduSoft.WebApplication.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class ChapterController : ControllerBase
     {
         private readonly IChapterManager _chapterManager;

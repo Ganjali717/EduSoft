@@ -22,7 +22,7 @@ public class SubChapterManager:ISubChapterManager
         var result = new ManagerResult<List<Subchapter>>();
         try
         {
-            var allSubChapters = await _context.Subchapters.ToListAsync();
+            var allSubChapters = await _context.Subchapters.Include(x=> x.Chapter).ToListAsync();
             if (allSubChapters != null)
             {
                 result.Data = allSubChapters;
