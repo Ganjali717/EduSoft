@@ -8,6 +8,7 @@ using EduSoft.Entities;
 using EduSoft.Entities.Jobs;
 using EduSoft.Entities.Tutorials;
 using EduSoft.Model.DTO.Jobs;
+using EduSoft.Model.DTO.SubChapter;
 using EduSoft.Model.DTO.Tutorials;
 
 namespace EduSoft.Model.Automapper
@@ -26,14 +27,21 @@ namespace EduSoft.Model.Automapper
 
             #endregion
 
-            #region Jobs
+            #region JobsDTO
             CreateMap<JobDTO, Job>();
             CreateMap<Job, JobDTO>();
             #endregion
 
-            #region Chapter
+            #region ChapterDTO
             CreateMap<Chapter, ChapterDto>();
             CreateMap<ChapterDto, Chapter>();
+            #endregion
+
+            #region SubChapterDTO
+            CreateMap<Subchapter,SubChapterDto>();
+            CreateMap<SubChapterDto, Subchapter>();
+            CreateMap<SubChapterIntro, SubChapterIntroDto>();
+            CreateMap<SubChapterIntroDto, SubChapterIntro>();
             #endregion
 
             #region ManagerResultRegion

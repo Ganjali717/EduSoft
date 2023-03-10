@@ -2308,3 +2308,59 @@ ALTER TABLE [SubchIntros] ADD CONSTRAINT [FK_SubchIntros_Subchapters_SubChapterI
 INFO  2023-03-10 20:04:28,378  1262ms Command                ?                  - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
 INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
 VALUES (N'20230310160408_CreateSubChapterIntro', N'7.0.3');
+INFO  2023-03-10 21:54:24,628   357ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-10 21:54:24,656   385ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-10 21:54:24,658   387ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-10 21:54:24,660   389ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-10 21:54:24,660   389ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-10 22:12:07,212   361ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-10 22:12:07,239   387ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-10 22:12:07,241   390ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-10 22:12:07,243   391ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-10 22:12:07,243   391ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-10 22:12:42,350   365ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-10 22:12:42,375   389ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-10 22:12:42,377   392ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-10 22:12:42,379   393ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-10 22:12:42,379   394ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-10 22:17:57,900   387ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-10 22:17:57,931   417ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-10 22:17:57,933   420ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-10 22:17:57,935   421ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-10 22:17:57,936   422ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-10 22:23:55,442   382ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-10 22:23:55,469   408ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-10 22:23:55,471   411ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-10 22:23:55,473   412ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-10 22:23:55,473   412ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-10 22:24:24,528   374ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-10 22:24:24,554   401ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-10 22:24:24,556   403ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-10 22:24:24,557   404ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-10 22:24:24,558   404ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-10 22:26:11,188   383ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-10 22:26:11,213   407ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-10 22:26:11,215   409ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-10 22:26:11,217   411ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-10 22:26:11,217   411ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-10 22:29:15,854   349ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-10 22:29:15,880   375ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-10 22:29:15,882   377ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-10 22:29:15,883   378ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-10 22:29:15,883   379ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+ERROR 2023-03-10 22:29:16,927  1422ms xceptionPageMiddleware ?                  - An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - EduSoft.WebApplication.Controllers.SubChapterController.GetAll (EduSoft.WebApplication). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2023-03-10 22:33:01,935   363ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-03-10 22:33:01,962   390ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-03-10 22:33:01,964   392ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-03-10 22:33:01,966   393ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-03-10 22:33:01,966   394ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-03-10 22:33:27,546 25974ms Command                ?                  - Executed DbCommand (40ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[ChapterId], [s].[Content], [s].[Created], [s].[Title]
+FROM [Subchapters] AS [s]

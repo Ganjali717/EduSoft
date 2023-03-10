@@ -16,7 +16,7 @@ namespace EduSoft.Model.DTO.Tutorials
         {
             get
             {
-                if (Guid.TryParse(Title, out var tutorialId)) return tutorialId;
+                if (Guid.TryParse(TutorialId, out var tutorialId)) return tutorialId;
                 return null;
             }
         }

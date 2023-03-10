@@ -49,6 +49,7 @@ builder.Services.AddScoped<IChapterManager, ChapterManager>();
 builder.Services.AddScoped<ISubChapterManager, SubChapterManager>();
 builder.Services.AddScoped<IAccountManager, AccountManager>();
 builder.Services.AddScoped<IJobManager, JobManager>();
+builder.Services.AddScoped<ISubChapterIntroManager, SubChapterIntroManager>();
 builder.Logging.AddLog4Net("log4net.config");
 builder.Services.AddAuthentication(opt =>
 {

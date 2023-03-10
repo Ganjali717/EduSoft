@@ -12,7 +12,7 @@ using Microsoft.Extensions.Logging;
 
 namespace EduSoft.Data.Managers.Services
 {
-    internal class SubChapterIntroManager:ISubChapterIntroManager
+    public class SubChapterIntroManager:ISubChapterIntroManager
     {
         private readonly AppDbContext _context;
         private readonly ILogger<SubChapterIntroManager> _logger;
@@ -52,7 +52,6 @@ namespace EduSoft.Data.Managers.Services
             }
             return manager;
         }
-
         public async Task<ManagerResult> DeleteSubChapterIntroAsync(Guid id)
         {
             var manager = new ManagerResult();
@@ -70,7 +69,6 @@ namespace EduSoft.Data.Managers.Services
             }
             return manager;
         }
-
         public async Task<ManagerResult<List<SubChapterIntro>>> GetAllSubChapterIntrorAsync()
         {
             var manager = new ManagerResult<List<SubChapterIntro>>();
@@ -94,7 +92,6 @@ namespace EduSoft.Data.Managers.Services
             }
             return manager;
         }
-
         public async Task<ManagerResult<SubChapterIntro>> GetSubChapterIntrobyIdAsync(Guid id)
         {
             var manager = new ManagerResult<SubChapterIntro>();
