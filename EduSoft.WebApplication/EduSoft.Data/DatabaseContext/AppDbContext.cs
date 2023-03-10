@@ -29,5 +29,6 @@ namespace EduSoft.Data.DatabaseContext
         public DbSet<Chapter> Chapters { get; set; }
         public DbSet<Subchapter> Subchapters { get; set; }
         public DbSet<Tutorial> Tutorials { get; set; }
+        public DbSet<SubChapterIntro> SubchIntros { get; set; }
     }
 }
