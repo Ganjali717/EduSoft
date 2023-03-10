@@ -25,12 +25,50 @@ namespace EduSoft.Data.Managers.Services
 
         public async Task<ManagerResult<SubChapterIntro>> CreateOrUpdateSubChapterIntro(SubChapterIntro subchapter)
         {
-            throw new NotImplementedException();
+            var manager = new ManagerResult<SubChapterIntro>();
+            try
+            {
+                if (subchapter.Id == Guid.Empty)
+                {
+                    await _context.AddAsync(subchapter);
+                    await _context.SaveChangesAsync();
+                }
+                else
+                {
+                    var oldChapter = await _context.SubchIntros.FindAsync(subchapter.Id);
+                    oldChapter.Content = subchapter.Content;
+                    oldChapter.Created = DateTime.UtcNow;
+                    oldChapter.Name = subchapter.Name;
+                    oldChapter.SubChapter = subchapter.SubChapter;
+                    oldChapter.SubChapterId = subchapter.SubChapterId;
+                    oldChapter.Images = subchapter.Images;
+                }
+                manager.Success = true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, ex.GetBaseException().Message);
+                manager.Message = ex.GetBaseException().Message;
+            }
+            return manager;
         }
 
         public async Task<ManagerResult> DeleteSubChapterIntroAsync(Guid id)
         {
-            throw new NotImplementedException();
+            var manager = new ManagerResult();
+            try
+            {
+                var chapter = await _context.SubchIntros.FindAsync(id);
+                _context.Remove(chapter);
+                await _context.SaveChangesAsync();
+                manager.Success = true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, ex.GetBaseException().Message);
+                manager.Message = ex.GetBaseException().Message;
+            }
+            return manager;
         }
 
         public async Task<ManagerResult<List<SubChapterIntro>>> GetAllSubChapterIntrorAsync()
@@ -59,7 +97,25 @@ namespace EduSoft.Data.Managers.Services
 
         public async Task<ManagerResult<SubChapterIntro>> GetSubChapterIntrobyIdAsync(Guid id)
         {
-            throw new NotImplementedException();
+            var manager = new ManagerResult<SubChapterIntro>();
+            try
+            {
+                var chapter = await _context.SubchIntros.FindAsync(id);
+                if (chapter != null)
+                {
+                    manager.Data = chapter; manager.Success = true;
+                }
+                else
+                {
+                    manager.Success = false;
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, ex.GetBaseException().Message);
+                manager.Message = ex.GetBaseException().Message;
+            }
+            return manager;
         }
     }
 }
