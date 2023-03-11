@@ -24,8 +24,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduSoft.Data", "EduSoft.Dat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduSoft.WebApplication.Test", "EduSoft.WebApplication.Test\EduSoft.WebApplication.Test.csproj", "{E9113314-66C2-45EC-A71A-307AB1B5A7BC}"
 EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "edusoft.front", "EduSoft.Front\edusoft.front.esproj", "{8094319E-DD4F-412B-B268-321E0AB306C0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,12 +50,6 @@ Global
 		{E9113314-66C2-45EC-A71A-307AB1B5A7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9113314-66C2-45EC-A71A-307AB1B5A7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9113314-66C2-45EC-A71A-307AB1B5A7BC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8094319E-DD4F-412B-B268-321E0AB306C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8094319E-DD4F-412B-B268-321E0AB306C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8094319E-DD4F-412B-B268-321E0AB306C0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{8094319E-DD4F-412B-B268-321E0AB306C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8094319E-DD4F-412B-B268-321E0AB306C0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8094319E-DD4F-412B-B268-321E0AB306C0}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
