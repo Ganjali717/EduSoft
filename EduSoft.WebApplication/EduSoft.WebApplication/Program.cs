@@ -72,6 +72,7 @@ builder.Services.AddAuthentication(opt =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"])),
     };
 });
+builder.Services.AddCors(opt => opt.AddDefaultPolicy(x=>x.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin()));
 #endregion
 
 
@@ -82,6 +83,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors();
 app.UseRequestLocalization();
 app.UseHttpsRedirection();
 app.UseStaticFiles();

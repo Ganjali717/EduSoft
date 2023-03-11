@@ -1,4 +1,0 @@
-C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Front\obj\Debug\edusoft.front.esproj.SuggestedBindingRedirects.cache
-C:\Users\User\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Front\obj\Debug\edusoft.front.esproj.CoreCompileInputs.cache
-C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Front\obj\Debug\edusoft.front.esproj.SuggestedBindingRedirects.cache
-C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.Front\obj\Debug\edusoft.front.esproj.CoreCompileInputs.cache
