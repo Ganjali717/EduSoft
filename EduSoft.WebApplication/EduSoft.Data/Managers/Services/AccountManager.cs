@@ -17,6 +17,7 @@ namespace EduSoft.Data.Managers.Services;
 
 public class AccountManager:IAccountManager
 {
+    public string name = "Ganjali";
     private readonly AppDbContext _context;
     private readonly ILogger<AccountManager> _logger;
     private readonly IConfiguration _configuration;
