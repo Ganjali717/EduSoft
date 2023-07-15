@@ -35,6 +35,7 @@ namespace EduSoft.WebApplication.Controllers
             var mappedResult = _mapper.Map<ManagerResult<List<Subchapter>>>(managerResult);
             return Ok(mappedResult.Data);
         }
+
         [HttpGet("Get/{id}")]
         public async Task<IActionResult> Get([FromRoute] Guid id)
         {
@@ -47,6 +48,7 @@ namespace EduSoft.WebApplication.Controllers
             var mappedResult = _mapper.Map<ManagerResult<SubChapterDto>>(managerResult);
             return Ok(mappedResult.Data);
         }
+
         [HttpPost("CreateOrUpdate")]
         public async Task<IActionResult> CreateOrUpdate([FromBody]SubChapterDto model)
         {
@@ -56,6 +58,7 @@ namespace EduSoft.WebApplication.Controllers
             Response.StatusCode = (int)HttpStatusCode.BadRequest;
             return Ok(managerResult.Message);
         }
+
         [HttpDelete("Remove/{id}")]
         public async Task<IActionResult> Remove([FromRoute] Guid id)
         {

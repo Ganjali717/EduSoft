@@ -6086,3 +6086,24 @@ SELECT [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId], [t].[Id], [t].[Ca
 FROM [Chapters] AS [c]
 INNER JOIN [Tutorials] AS [t] ON [c].[TutorialId] = [t].[Id]
 LEFT JOIN [Categories] AS [c0] ON [t].[CategoryId] = [c0].[Id]
+INFO  2023-07-11 10:37:03,771  1356ms Lifetime               ?                  - Now listening on: https://localhost:7275
+INFO  2023-07-11 10:37:03,983  1567ms Lifetime               ?                  - Now listening on: http://localhost:5203
+INFO  2023-07-11 10:37:03,987  1571ms Lifetime               ApplicationStarted - Application started. Press Ctrl+C to shut down.
+INFO  2023-07-11 10:37:03,990  1574ms Lifetime               ApplicationStarted - Hosting environment: Development
+INFO  2023-07-11 10:37:03,991  1575ms Lifetime               ApplicationStarted - Content root path: C:\Users\LENOVO\OneDrive\Desktop\EduSoft\EduSoft.WebApplication\EduSoft.WebApplication\
+INFO  2023-07-11 10:37:42,411 39995ms Command                ?                  - Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+INFO  2023-07-11 10:37:42,411 39995ms Command                ?                  - Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId], [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title], [c0].[Id], [c0].[Name]
+FROM [Chapters] AS [c]
+INNER JOIN [Tutorials] AS [t] ON [c].[TutorialId] = [t].[Id]
+LEFT JOIN [Categories] AS [c0] ON [t].[CategoryId] = [c0].[Id]
+INFO  2023-07-11 10:37:46,439 44023ms Command                ?                  - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title]
+FROM [Tutorials] AS [t]
+INFO  2023-07-11 10:37:46,439 44023ms Command                ?                  - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Created], [c].[Title], [c].[TutorialId], [t].[Id], [t].[CategoryId], [t].[Created], [t].[Description], [t].[Title], [c0].[Id], [c0].[Name]
+FROM [Chapters] AS [c]
+INNER JOIN [Tutorials] AS [t] ON [c].[TutorialId] = [t].[Id]
+LEFT JOIN [Categories] AS [c0] ON [t].[CategoryId] = [c0].[Id]

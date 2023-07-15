@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jXJqLYzUcn9VEWv/cbQznqu+FQZQE4Y8tjVVwz9TglUx6sRxZSI3FS3P+Rw3JCYI9HRFMRt8EdnTv28JyZzMGg==",
+  "dgSpecHash": "savhszOu3daS7d8+W0UiQTUbpYtr5+7uKdV2oj5zHFCgtCv4n4cM0lHwAQNY4BIEdcjSSz8OPax0ReCRUNF0kw==",
   "success": true,
   "projectFilePath": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\EduSoft\\EduSoft.WebApplication\\EduSoft.WebApplication\\EduSoft.WebApplication.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,7 @@
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.18.1\\microsoft.visualstudio.azure.containers.tools.targets.1.18.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
