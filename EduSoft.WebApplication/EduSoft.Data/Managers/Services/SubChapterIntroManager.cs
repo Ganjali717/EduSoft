@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using EduSoft.Data.DatabaseContext;
+﻿using EduSoft.Data.DatabaseContext;
 using EduSoft.Data.Managers.Interfaces;
 using EduSoft.Entities;
 using EduSoft.Entities.Tutorials;

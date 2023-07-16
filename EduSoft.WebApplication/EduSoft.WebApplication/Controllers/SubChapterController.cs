@@ -1,13 +1,10 @@
 ﻿using EduSoft.Data.Managers.Interfaces;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using AutoMapper;
 using EduSoft.Model.DTO.SubChapter;
 using EduSoft.Entities;
-using EduSoft.Model.DTO.Tutorials;
 using EduSoft.Entities.Tutorials;
-using EduSoft.Model.DTO.Jobs;
 
 namespace EduSoft.WebApplication.Controllers
 {

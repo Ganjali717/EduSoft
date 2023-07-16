@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using EduSoft.Entities.Comments;
+﻿using EduSoft.Entities.Comments;
 using Microsoft.EntityFrameworkCore;
 using EduSoft.Entities.Cources;
 using EduSoft.Entities.Discussions;

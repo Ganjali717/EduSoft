@@ -1,17 +1,9 @@
-﻿using System.IdentityModel.Tokens.Jwt;
-using AutoMapper;
+﻿using AutoMapper;
 using EduSoft.Data.Managers.Interfaces;
-using EduSoft.Data.Managers.Services;
 using EduSoft.Model.DTO.Account;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
-using System.Security.Claims;
-using System.Text;
-using EduSoft.Entities.Security;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.IdentityModel.Tokens;
 
 namespace EduSoft.WebApplication.Controllers
 {

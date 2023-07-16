@@ -4,14 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using EduSoft.Entities;
 using EduSoft.Model.DTO.Tutorials;
-using Microsoft.Extensions.Caching.Memory;
-using System.Collections.Generic;
 using EduSoft.Entities.Tutorials;
-using System.Xml.Linq;
-using EduSoft.Data.Managers.Services;
-using EduSoft.Entities.Jobs;
 using EduSoft.Model.DTO.Jobs;
-using Microsoft.AspNetCore.Authorization;
 
 namespace EduSoft.WebApplication.Controllers
 {

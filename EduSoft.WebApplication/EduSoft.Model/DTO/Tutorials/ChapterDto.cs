@@ -1,12 +1,4 @@
-﻿using EduSoft.Entities.Tutorials;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EduSoft.Model.DTO.Tutorials
+﻿namespace EduSoft.Model.DTO.Tutorials
 {
     public class ChapterDto
     {

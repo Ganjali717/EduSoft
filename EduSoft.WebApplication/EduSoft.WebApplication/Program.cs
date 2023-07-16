@@ -4,12 +4,9 @@ using EduSoft.Data.Managers.Services;
 using EduSoft.Model.Automapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System.Text.Json.Serialization;
-using Microsoft.AspNetCore.Localization;
 using Microsoft.OpenApi.Models;
 
 #region Builder

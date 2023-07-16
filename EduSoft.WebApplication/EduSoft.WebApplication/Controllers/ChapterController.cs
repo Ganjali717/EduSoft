@@ -4,8 +4,6 @@ using EduSoft.Data.Managers.Interfaces;
 using EduSoft.Entities;
 using EduSoft.Entities.Tutorials;
 using EduSoft.Model.DTO.Tutorials;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EduSoft.WebApplication.Controllers

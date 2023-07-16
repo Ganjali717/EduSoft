@@ -1,12 +1,6 @@
-﻿using AutoMapper;
-using EduSoft.Data.DatabaseContext;
+﻿using EduSoft.Data.DatabaseContext;
 using EduSoft.Entities.Tutorials;
 using EduSoft.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using EduSoft.Data.Managers.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;

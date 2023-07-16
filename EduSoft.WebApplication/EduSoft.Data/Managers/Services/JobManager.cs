@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using EduSoft.Data.DatabaseContext;
+﻿using EduSoft.Data.DatabaseContext;
 using EduSoft.Data.Managers.Interfaces;
 using EduSoft.Entities;
 using EduSoft.Entities.Jobs;

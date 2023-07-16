@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EduSoft.Model.DTO.Account
+﻿namespace EduSoft.Model.DTO.Account
 {
     public class LoginDto
     {

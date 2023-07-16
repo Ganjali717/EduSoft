@@ -1,5 +1,4 @@
-﻿using AutoMapper;
-using EduSoft.Data.DatabaseContext;
+﻿using EduSoft.Data.DatabaseContext;
 using EduSoft.Data.Managers.Interfaces;
 using EduSoft.Entities.Tutorials;
 using EduSoft.Entities;

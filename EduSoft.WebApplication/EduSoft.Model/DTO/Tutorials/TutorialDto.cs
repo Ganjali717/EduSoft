@@ -1,6 +1,4 @@
-﻿using EduSoft.Entities.Tutorials;
-
-namespace EduSoft.Model.DTO.Tutorials;
+﻿namespace EduSoft.Model.DTO.Tutorials;
 
 public class TutorialDto
 {
